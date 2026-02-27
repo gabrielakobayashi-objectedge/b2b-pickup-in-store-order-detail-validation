@@ -10,3 +10,6 @@ npm-debug.log
 # Playwright test output
 playwright-report/
 playwright/.cache/
+
+# Environment variables file
+.env

@@ -8,6 +8,17 @@ The tests exercise login, navigation, order selection and detail verification.
 
 ## 🚀 Quick Start
 
+### Environment configuration
+
+Credentials are pulled from environment variables. Create a `.env` file in the repository root containing the following keys (no actual values are shown here):
+
+```text
+B2B_USER=your-b2b-username
+B2B_PASS=your-b2b-password
+```
+
+Don't commit real secrets; `.env` is ignored by git.
+
 ### Python / Selenium
 
 1. Create and activate a virtual environment:
@@ -27,11 +38,12 @@ The tests exercise login, navigation, order selection and detail verification.
 
 ### Playwright / JavaScript
 
-1. Install Node packages and browsers:
+1. Install Node packages and browsers (dotenv is pulled in as a dev dependency):
    ```bash
    npm install
    ```
-2. Execute the tests:
+2. Ensure `.env` contains the `B2B_USER` and `B2B_PASS` values (or export them directly).
+3. Execute the tests:
    ```bash
    npm test
    ```

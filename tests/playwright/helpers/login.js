@@ -1,10 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 const { expect } = require('@playwright/test');
+// load credentials from environment file when available
+require('dotenv').config();
 
 async function login(page) {
   const LOGIN_URL = 'https://b2b-tst1.specialized.com/cs/PickUpInStore';
-  const USER = 'gabriela.kobayashi@objectedge.com';
-  const PASS = 'Moti_2014@66';
+  const USER = process.env.B2B_USER || 'gabriela.kobayashi@objectedge.com';
+  const PASS = process.env.B2B_PASS || 'Moti_2014@66';
 
   await page.goto(LOGIN_URL);
   await page.fill('input[name="userName"]', USER);

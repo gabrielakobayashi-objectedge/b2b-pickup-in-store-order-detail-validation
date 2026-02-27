@@ -9,8 +9,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 LOGIN_URL = "https://b2b-tst1.specialized.com/cs/PickUpInStore"
-USER = "gabriela.kobayashi@objectedge.com"
-PASS = "Moti_2014@66"
+
+# credentials may be supplied via environment variables or a .env file
+# install python-dotenv and add a .env to the repo root for local development
+from dotenv import load_dotenv
+import os
+load_dotenv()
+USER = os.getenv("B2B_USER", "gabriela.kobayashi@objectedge.com")
+PASS = os.getenv("B2B_PASS", "Moti_2014@66")
 
 
 @pytest.fixture
