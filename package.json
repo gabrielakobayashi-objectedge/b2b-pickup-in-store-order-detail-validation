@@ -1,0 +1,12 @@
+{
+  "name": "b2b-pickup-in-store-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "postinstall": "playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.35.0"
+  }
+}

@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+
+# Node artifacts
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Playwright test output
+playwright-report/
+playwright/.cache/
