@@ -5,8 +5,9 @@ require('dotenv').config();
 
 async function login(page) {
   const LOGIN_URL = 'https://b2b-tst1.specialized.com/cs/PickUpInStore';
-  const USER = process.env.B2B_USER || 'gabriela.kobayashi@objectedge.com';
-  const PASS = process.env.B2B_PASS || 'Moti_2014@66';
+  // credentials must be provided via environment variables or .env file
+  const USER = process.env.B2B_USER;
+  const PASS = process.env.B2B_PASS;
 
   await page.goto(LOGIN_URL);
   await page.fill('input[name="userName"]', USER);

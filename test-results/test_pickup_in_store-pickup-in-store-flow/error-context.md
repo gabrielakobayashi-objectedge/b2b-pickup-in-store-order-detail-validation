@@ -1,11 +1,3749 @@
 # Page snapshot
 
 ```yaml
-- generic [ref=e2]:
-  - banner
-  - main [ref=e3]:
-    - generic [ref=e5]:
-      - heading "Integrated Marketplace" [level=1] [ref=e9]
-      - generic [ref=e15]: Showing 0 results
-  - contentinfo [ref=e16]
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - link [ref=e11] [cursor=pointer]:
+                - /url: home
+                - img [ref=e13]
+              - generic [ref=e15]:
+                - checkbox "Sales Service" [checked]
+                - generic [ref=e16] [cursor=pointer]:
+                  - paragraph [ref=e17]: Sales
+                  - paragraph [ref=e18]: Service
+            - generic [ref=e20]:
+              - generic [ref=e25]:
+                - img [ref=e27] [cursor=pointer]
+                - searchbox "Search" [ref=e29]
+              - generic [ref=e31]:
+                - text: CYCLE DYNAMICS (2598)
+                - img [ref=e33]
+              - button "GK Gabriela Kobayashi" [ref=e35] [cursor=pointer]:
+                - generic [ref=e36]:
+                  - generic [ref=e38]: GK
+                  - generic [ref=e39]: Gabriela Kobayashi
+                  - img [ref=e41]
+              - generic [ref=e43] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: "#"
+                      - img
+                  - generic: Cart
+          - generic [ref=e46]:
+            - generic [ref=e51]:
+              - generic [ref=e54]: Home
+              - generic [ref=e58]: Bikes
+              - generic [ref=e61]: Equipment
+              - generic [ref=e64]: Apparel
+              - generic [ref=e68]: PROMOTIONS
+              - generic [ref=e72]: Transactions
+              - generic [ref=e76]: Retailer Hub
+            - generic [ref=e79]:
+              - generic [ref=e81]:
+                - checkbox [ref=e83]
+                - text: Rider View
+                - iframe [ref=e85]:
+                  
+              - link "Favorites" [ref=e87] [cursor=pointer]:
+                - /url: sbc-wishlist
+                - img [ref=e88]
+                - generic [ref=e91]: Favorites
+        - button "Live Chat" [ref=e92] [cursor=pointer]:
+          - img [ref=e94]
+    - main [ref=e102]:
+      - generic [ref=e104]:
+        - heading "Integrated Marketplace" [level=1] [ref=e108]
+        - generic [ref=e112]:
+          - button "Pick Up In Store" [ref=e113] [cursor=pointer]
+          - button "Rider Requests" [ref=e114] [cursor=pointer]
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - button "All" [ref=e121] [cursor=pointer]
+              - button "Processing" [ref=e122] [cursor=pointer]
+              - button "Shipped" [ref=e123] [cursor=pointer]
+              - button "Received" [ref=e124] [cursor=pointer]
+              - button "Pickup Ready" [ref=e125] [cursor=pointer]
+            - generic [ref=e126]:
+              - button "Completed" [ref=e127] [cursor=pointer]
+              - button "Cancelled" [ref=e128] [cursor=pointer]
+            - button "Store" [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]:
+                - img [ref=e133]
+                - generic [ref=e135]: Store
+              - img [ref=e137]
+            - button "Types" [ref=e140] [cursor=pointer]:
+              - generic [ref=e142]: Types
+              - img [ref=e144]
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - img [ref=e150]
+              - textbox "Search" [ref=e152]
+            - generic [ref=e153]:
+              - button [ref=e154] [cursor=pointer]:
+                - img [ref=e156]
+              - button [ref=e158] [cursor=pointer]:
+                - img [ref=e160]
+          - generic [ref=e163]: Showing 137 results
+          - button "Reset Filters" [ref=e166] [cursor=pointer]:
+            - text: Reset Filters
+            - img [ref=e167]
+          - generic [ref=e170]:
+            - table [ref=e173]:
+              - rowgroup [ref=e174]:
+                - 'row "Order # Status Cust Order# Pickup Customer Order Date Pickup Date Ship To Margin Tracking #" [ref=e175]':
+                  - 'columnheader "Order #" [ref=e176]':
+                    - text: "Order #"
+                    - img [ref=e177] [cursor=pointer]
+                  - columnheader "Status" [ref=e179]:
+                    - text: Status
+                    - img [ref=e180] [cursor=pointer]
+                  - columnheader "Cust Order#" [ref=e182]:
+                    - text: Cust Order#
+                    - img [ref=e183] [cursor=pointer]
+                  - columnheader "Pickup Customer" [ref=e185]:
+                    - text: Pickup Customer
+                    - img [ref=e186] [cursor=pointer]
+                  - columnheader "Order Date" [ref=e188]:
+                    - text: Order Date
+                    - img [ref=e189] [cursor=pointer]
+                  - columnheader "Pickup Date" [ref=e191]:
+                    - text: Pickup Date
+                    - img [ref=e192] [cursor=pointer]
+                  - columnheader "Ship To" [ref=e194]:
+                    - text: Ship To
+                    - img [ref=e195] [cursor=pointer]
+                  - columnheader "Margin" [ref=e197]:
+                    - text: Margin
+                    - img [ref=e198] [cursor=pointer]
+                  - 'columnheader "Tracking #" [ref=e200]':
+                    - text: "Tracking #"
+                    - img [ref=e201] [cursor=pointer]
+              - rowgroup [ref=e203]:
+                - row "5050421 Store Picked Up US-0121091034-PUIS-FFS CORBIN DUNN 01 Sep 25 10 Feb 26 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 --" [ref=e204]:
+                  - cell "5050421 Store" [ref=e205] [cursor=pointer]:
+                    - generic [ref=e206]:
+                      - generic [ref=e207]: "5050421"
+                      - generic [ref=e208]: Store
+                  - cell "Picked Up" [ref=e209]:
+                    - generic [ref=e213]: Picked Up
+                  - cell "US-0121091034-PUIS-FFS" [ref=e214]:
+                    - generic [ref=e216]: US-0121091034-PUIS-FFS
+                  - cell "CORBIN DUNN" [ref=e217]:
+                    - generic [ref=e219]: CORBIN DUNN
+                  - cell "01 Sep 25" [ref=e220]:
+                    - generic [ref=e221]: 01 Sep 25
+                  - cell "10 Feb 26" [ref=e222]:
+                    - generic [ref=e223]: 10 Feb 26
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e224]:
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e232]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "--" [ref=e233]:
+                    - generic [ref=e235]: "--"
+                - row "4926713 Store Picked Up US-0104474549-PUIS NELSON QUINONEZ 30 Apr 25 24 Oct 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 288165669920" [ref=e236]:
+                  - cell "4926713 Store" [ref=e237] [cursor=pointer]:
+                    - generic [ref=e238]:
+                      - generic [ref=e239]: "4926713"
+                      - generic [ref=e240]: Store
+                  - cell "Picked Up" [ref=e241]:
+                    - generic [ref=e245]: Picked Up
+                  - cell "US-0104474549-PUIS" [ref=e246]:
+                    - generic [ref=e248]: US-0104474549-PUIS
+                  - cell "NELSON QUINONEZ" [ref=e249]:
+                    - generic [ref=e251]: NELSON QUINONEZ
+                  - cell "30 Apr 25" [ref=e252]:
+                    - generic [ref=e253]: 30 Apr 25
+                  - cell "24 Oct 25" [ref=e254]:
+                    - generic [ref=e255]: 24 Oct 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e256]:
+                    - generic [ref=e262]:
+                      - generic [ref=e263]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e264]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "288165669920" [ref=e265]:
+                    - list [ref=e266]:
+                      - listitem [ref=e267]:
+                        - link "288165669920" [ref=e268] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=288165669920
+                - row "5050074 Store Picked Up US-0121282473-PUIS Carlos Garcia Crespo 01 Sep 25 04 Sep 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $10.50 884044614989" [ref=e269]:
+                  - cell "5050074 Store" [ref=e270] [cursor=pointer]:
+                    - generic [ref=e271]:
+                      - generic [ref=e272]: "5050074"
+                      - generic [ref=e273]: Store
+                  - cell "Picked Up" [ref=e274]:
+                    - generic [ref=e278]: Picked Up
+                  - cell "US-0121282473-PUIS" [ref=e279]:
+                    - generic [ref=e281]: US-0121282473-PUIS
+                  - cell "Carlos Garcia Crespo" [ref=e282]:
+                    - generic [ref=e284]: Carlos Garcia Crespo
+                  - cell "01 Sep 25" [ref=e285]:
+                    - generic [ref=e286]: 01 Sep 25
+                  - cell "04 Sep 25" [ref=e287]:
+                    - generic [ref=e288]: 04 Sep 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e289]:
+                    - generic [ref=e295]:
+                      - generic [ref=e296]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e297]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$10.50" [ref=e298] [cursor=pointer]:
+                    - generic [ref=e300]: $10.50
+                  - cell "884044614989" [ref=e301]:
+                    - list [ref=e302]:
+                      - listitem [ref=e303]:
+                        - link "884044614989" [ref=e304] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=884044614989
+                - row "5032523 Store Picked Up US-0117164175-PUIS Mark Talling 13 Aug 25 24 Aug 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $11.00 9200190381271500048194" [ref=e305]:
+                  - cell "5032523 Store" [ref=e306] [cursor=pointer]:
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: "5032523"
+                      - generic [ref=e309]: Store
+                  - cell "Picked Up" [ref=e310]:
+                    - generic [ref=e314]: Picked Up
+                  - cell "US-0117164175-PUIS" [ref=e315]:
+                    - generic [ref=e317]: US-0117164175-PUIS
+                  - cell "Mark Talling" [ref=e318]:
+                    - generic [ref=e320]: Mark Talling
+                  - cell "13 Aug 25" [ref=e321]:
+                    - generic [ref=e322]: 13 Aug 25
+                  - cell "24 Aug 25" [ref=e323]:
+                    - generic [ref=e324]: 24 Aug 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e325]:
+                    - generic [ref=e331]:
+                      - generic [ref=e332]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e333]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$11.00" [ref=e334] [cursor=pointer]:
+                    - generic [ref=e336]: $11.00
+                  - cell "9200190381271500048194" [ref=e337]:
+                    - list [ref=e338]:
+                      - listitem [ref=e339]:
+                        - link "9200190381271500048194" [ref=e340] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190381271500048194
+                - row "4961873 Store Picked Up US-0104935037-PUIS Stanislav Gintautas 03 Jun 25 24 Aug 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 881767005213" [ref=e341]:
+                  - cell "4961873 Store" [ref=e342] [cursor=pointer]:
+                    - generic [ref=e343]:
+                      - generic [ref=e344]: "4961873"
+                      - generic [ref=e345]: Store
+                  - cell "Picked Up" [ref=e346]:
+                    - generic [ref=e350]: Picked Up
+                  - cell "US-0104935037-PUIS" [ref=e351]:
+                    - generic [ref=e353]: US-0104935037-PUIS
+                  - cell "Stanislav Gintautas" [ref=e354]:
+                    - generic [ref=e356]: Stanislav Gintautas
+                  - cell "03 Jun 25" [ref=e357]:
+                    - generic [ref=e358]: 03 Jun 25
+                  - cell "24 Aug 25" [ref=e359]:
+                    - generic [ref=e360]: 24 Aug 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e361]:
+                    - generic [ref=e367]:
+                      - generic [ref=e368]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e369]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "881767005213" [ref=e370]:
+                    - list [ref=e371]:
+                      - listitem [ref=e372]:
+                        - link "881767005213" [ref=e373] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=881767005213
+                - row "5016204 Store Picked Up US-0113309573-PUIS John Garber 28 Jul 25 08 Aug 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $540.00 883141756790" [ref=e374]:
+                  - cell "5016204 Store" [ref=e375] [cursor=pointer]:
+                    - generic [ref=e376]:
+                      - generic [ref=e377]: "5016204"
+                      - generic [ref=e378]: Store
+                  - cell "Picked Up" [ref=e379]:
+                    - generic [ref=e383]: Picked Up
+                  - cell "US-0113309573-PUIS" [ref=e384]:
+                    - generic [ref=e386]: US-0113309573-PUIS
+                  - cell "John Garber" [ref=e387]:
+                    - generic [ref=e389]: John Garber
+                  - cell "28 Jul 25" [ref=e390]:
+                    - generic [ref=e391]: 28 Jul 25
+                  - cell "08 Aug 25" [ref=e392]:
+                    - generic [ref=e393]: 08 Aug 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e394]:
+                    - generic [ref=e400]:
+                      - generic [ref=e401]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e402]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$540.00" [ref=e403] [cursor=pointer]:
+                    - generic [ref=e405]: $540.00
+                  - cell "883141756790" [ref=e406]:
+                    - list [ref=e407]:
+                      - listitem [ref=e408]:
+                        - link "883141756790" [ref=e409] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=883141756790
+                - row "4975923 Store Picked Up US-0105099824-PUIS Michael Carey 16 Jun 25 10 Jul 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $12.50 882095201460" [ref=e410]:
+                  - cell "4975923 Store" [ref=e411] [cursor=pointer]:
+                    - generic [ref=e412]:
+                      - generic [ref=e413]: "4975923"
+                      - generic [ref=e414]: Store
+                  - cell "Picked Up" [ref=e415]:
+                    - generic [ref=e419]: Picked Up
+                  - cell "US-0105099824-PUIS" [ref=e420]:
+                    - generic [ref=e422]: US-0105099824-PUIS
+                  - cell "Michael Carey" [ref=e423]:
+                    - generic [ref=e425]: Michael Carey
+                  - cell "16 Jun 25" [ref=e426]:
+                    - generic [ref=e427]: 16 Jun 25
+                  - cell "10 Jul 25" [ref=e428]:
+                    - generic [ref=e429]: 10 Jul 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e430]:
+                    - generic [ref=e436]:
+                      - generic [ref=e437]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e438]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$12.50" [ref=e439] [cursor=pointer]:
+                    - generic [ref=e441]: $12.50
+                  - cell "882095201460" [ref=e442]:
+                    - list [ref=e443]:
+                      - listitem [ref=e444]:
+                        - link "882095201460" [ref=e445] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=882095201460
+                - row "4880783 Store Picked Up US-0103836200-PUIS IAN JONES 21 Mar 25 24 Jun 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $337.50 287574741447 286759051286" [ref=e446]:
+                  - cell "4880783 Store" [ref=e447] [cursor=pointer]:
+                    - generic [ref=e448]:
+                      - generic [ref=e449]: "4880783"
+                      - generic [ref=e450]: Store
+                  - cell "Picked Up" [ref=e451]:
+                    - generic [ref=e455]: Picked Up
+                  - cell "US-0103836200-PUIS" [ref=e456]:
+                    - generic [ref=e458]: US-0103836200-PUIS
+                  - cell "IAN JONES" [ref=e459]:
+                    - generic [ref=e461]: IAN JONES
+                  - cell "21 Mar 25" [ref=e462]:
+                    - generic [ref=e463]: 21 Mar 25
+                  - cell "24 Jun 25" [ref=e464]:
+                    - generic [ref=e465]: 24 Jun 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e466]:
+                    - generic [ref=e472]:
+                      - generic [ref=e473]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e474]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$337.50" [ref=e475] [cursor=pointer]:
+                    - generic [ref=e477]: $337.50
+                  - cell "287574741447 286759051286" [ref=e478]:
+                    - list [ref=e479]:
+                      - listitem [ref=e480]:
+                        - link "287574741447" [ref=e481] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=287574741447
+                      - listitem [ref=e482]:
+                        - link "286759051286" [ref=e483] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=286759051286
+                - row "4963878 Store Picked Up US-0104958014-PUIS Scott Lewis 04 Jun 25 19 Jun 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $160.00 881798668647" [ref=e484]:
+                  - cell "4963878 Store" [ref=e485] [cursor=pointer]:
+                    - generic [ref=e486]:
+                      - generic [ref=e487]: "4963878"
+                      - generic [ref=e488]: Store
+                  - cell "Picked Up" [ref=e489]:
+                    - generic [ref=e493]: Picked Up
+                  - cell "US-0104958014-PUIS" [ref=e494]:
+                    - generic [ref=e496]: US-0104958014-PUIS
+                  - cell "Scott Lewis" [ref=e497]:
+                    - generic [ref=e499]: Scott Lewis
+                  - cell "04 Jun 25" [ref=e500]:
+                    - generic [ref=e501]: 04 Jun 25
+                  - cell "19 Jun 25" [ref=e502]:
+                    - generic [ref=e503]: 19 Jun 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e504]:
+                    - generic [ref=e510]:
+                      - generic [ref=e511]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e512]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$160.00" [ref=e513] [cursor=pointer]:
+                    - generic [ref=e515]: $160.00
+                  - cell "881798668647" [ref=e516]:
+                    - list [ref=e517]:
+                      - listitem [ref=e518]:
+                        - link "881798668647" [ref=e519] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=881798668647
+                - row "4967284 Employee Purchase Picked Up US-0104549627-PUIS KATHLEEN DAVIGNON 08 Jun 25 14 Jun 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 881878230231" [ref=e520]:
+                  - cell "4967284 Employee Purchase" [ref=e521] [cursor=pointer]:
+                    - generic [ref=e522]:
+                      - generic [ref=e523]: "4967284"
+                      - generic [ref=e524]: Employee Purchase
+                  - cell "Picked Up" [ref=e525]:
+                    - generic [ref=e529]: Picked Up
+                  - cell "US-0104549627-PUIS" [ref=e530]:
+                    - generic [ref=e532]: US-0104549627-PUIS
+                  - cell "KATHLEEN DAVIGNON" [ref=e533]:
+                    - generic [ref=e535]: KATHLEEN DAVIGNON
+                  - cell "08 Jun 25" [ref=e536]:
+                    - generic [ref=e537]: 08 Jun 25
+                  - cell "14 Jun 25" [ref=e538]:
+                    - generic [ref=e539]: 14 Jun 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e540]:
+                    - generic [ref=e546]:
+                      - generic [ref=e547]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e548]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "881878230231" [ref=e549]:
+                    - list [ref=e550]:
+                      - listitem [ref=e551]:
+                        - link "881878230231" [ref=e552] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=881878230231
+                - row "4942568 Store Picked Up US-0104675578-PUIS Karl Davis 15 May 25 28 May 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $124.00 288733637763" [ref=e553]:
+                  - cell "4942568 Store" [ref=e554] [cursor=pointer]:
+                    - generic [ref=e555]:
+                      - generic [ref=e556]: "4942568"
+                      - generic [ref=e557]: Store
+                  - cell "Picked Up" [ref=e558]:
+                    - generic [ref=e562]: Picked Up
+                  - cell "US-0104675578-PUIS" [ref=e563]:
+                    - generic [ref=e565]: US-0104675578-PUIS
+                  - cell "Karl Davis" [ref=e566]:
+                    - generic [ref=e568]: Karl Davis
+                  - cell "15 May 25" [ref=e569]:
+                    - generic [ref=e570]: 15 May 25
+                  - cell "28 May 25" [ref=e571]:
+                    - generic [ref=e572]: 28 May 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e573]:
+                    - generic [ref=e579]:
+                      - generic [ref=e580]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e581]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$124.00" [ref=e582] [cursor=pointer]:
+                    - generic [ref=e584]: $124.00
+                  - cell "288733637763" [ref=e585]:
+                    - list [ref=e586]:
+                      - listitem [ref=e587]:
+                        - link "288733637763" [ref=e588] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=288733637763
+                - row "4921844 Store Picked Up US-0104421961-PUIS MARK HARRINGTON 27 Apr 25 23 May 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $412.50 288021437217" [ref=e589]:
+                  - cell "4921844 Store" [ref=e590] [cursor=pointer]:
+                    - generic [ref=e591]:
+                      - generic [ref=e592]: "4921844"
+                      - generic [ref=e593]: Store
+                  - cell "Picked Up" [ref=e594]:
+                    - generic [ref=e598]: Picked Up
+                  - cell "US-0104421961-PUIS" [ref=e599]:
+                    - generic [ref=e601]: US-0104421961-PUIS
+                  - cell "MARK HARRINGTON" [ref=e602]:
+                    - generic [ref=e604]: MARK HARRINGTON
+                  - cell "27 Apr 25" [ref=e605]:
+                    - generic [ref=e606]: 27 Apr 25
+                  - cell "23 May 25" [ref=e607]:
+                    - generic [ref=e608]: 23 May 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e609]:
+                    - generic [ref=e615]:
+                      - generic [ref=e616]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e617]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$412.50" [ref=e618] [cursor=pointer]:
+                    - generic [ref=e620]: $412.50
+                  - cell "288021437217" [ref=e621]:
+                    - list [ref=e622]:
+                      - listitem [ref=e623]:
+                        - link "288021437217" [ref=e624] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=288021437217
+                - row "4919535 Store Picked Up US-0104391772-PUIS Douglas Mcdonald 25 Apr 25 19 May 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $384.45 287962970457 287956647146" [ref=e625]:
+                  - cell "4919535 Store" [ref=e626] [cursor=pointer]:
+                    - generic [ref=e627]:
+                      - generic [ref=e628]: "4919535"
+                      - generic [ref=e629]: Store
+                  - cell "Picked Up" [ref=e630]:
+                    - generic [ref=e634]: Picked Up
+                  - cell "US-0104391772-PUIS" [ref=e635]:
+                    - generic [ref=e637]: US-0104391772-PUIS
+                  - cell "Douglas Mcdonald" [ref=e638]:
+                    - generic [ref=e640]: Douglas Mcdonald
+                  - cell "25 Apr 25" [ref=e641]:
+                    - generic [ref=e642]: 25 Apr 25
+                  - cell "19 May 25" [ref=e643]:
+                    - generic [ref=e644]: 19 May 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e645]:
+                    - generic [ref=e651]:
+                      - generic [ref=e652]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e653]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$384.45" [ref=e654] [cursor=pointer]:
+                    - generic [ref=e656]: $384.45
+                  - cell "287962970457 287956647146" [ref=e657]:
+                    - list [ref=e658]:
+                      - listitem [ref=e659]:
+                        - link "287962970457" [ref=e660] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=287962970457
+                      - listitem [ref=e661]:
+                        - link "287956647146" [ref=e662] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=287956647146
+                - row "4905774 Store Picked Up US-0104186738-PUIS Carol Boas 11 Apr 25 18 May 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $450.00 287525265730" [ref=e663]:
+                  - cell "4905774 Store" [ref=e664] [cursor=pointer]:
+                    - generic [ref=e665]:
+                      - generic [ref=e666]: "4905774"
+                      - generic [ref=e667]: Store
+                  - cell "Picked Up" [ref=e668]:
+                    - generic [ref=e672]: Picked Up
+                  - cell "US-0104186738-PUIS" [ref=e673]:
+                    - generic [ref=e675]: US-0104186738-PUIS
+                  - cell "Carol Boas" [ref=e676]:
+                    - generic [ref=e678]: Carol Boas
+                  - cell "11 Apr 25" [ref=e679]:
+                    - generic [ref=e680]: 11 Apr 25
+                  - cell "18 May 25" [ref=e681]:
+                    - generic [ref=e682]: 18 May 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e683]:
+                    - generic [ref=e689]:
+                      - generic [ref=e690]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e691]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$450.00" [ref=e692] [cursor=pointer]:
+                    - generic [ref=e694]: $450.00
+                  - cell "287525265730" [ref=e695]:
+                    - list [ref=e696]:
+                      - listitem [ref=e697]:
+                        - link "287525265730" [ref=e698] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=287525265730
+                - row "4888434 Store Picked Up US-0103961002-PUIS Scott Lewis 27 Mar 25 11 Apr 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $224.30 286942171843 286941439772" [ref=e699]:
+                  - cell "4888434 Store" [ref=e700] [cursor=pointer]:
+                    - generic [ref=e701]:
+                      - generic [ref=e702]: "4888434"
+                      - generic [ref=e703]: Store
+                  - cell "Picked Up" [ref=e704]:
+                    - generic [ref=e708]: Picked Up
+                  - cell "US-0103961002-PUIS" [ref=e709]:
+                    - generic [ref=e711]: US-0103961002-PUIS
+                  - cell "Scott Lewis" [ref=e712]:
+                    - generic [ref=e714]: Scott Lewis
+                  - cell "27 Mar 25" [ref=e715]:
+                    - generic [ref=e716]: 27 Mar 25
+                  - cell "11 Apr 25" [ref=e717]:
+                    - generic [ref=e718]: 11 Apr 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e719]:
+                    - generic [ref=e725]:
+                      - generic [ref=e726]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e727]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$224.30" [ref=e728] [cursor=pointer]:
+                    - generic [ref=e730]: $224.30
+                  - cell "286942171843 286941439772" [ref=e731]:
+                    - list [ref=e732]:
+                      - listitem [ref=e733]:
+                        - link "286942171843" [ref=e734] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=286942171843
+                      - listitem [ref=e735]:
+                        - link "286941439772" [ref=e736] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=286941439772
+                - row "4877985 Store Picked Up US-0103742510-PUIS John Anderson 19 Mar 25 09 Apr 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $320.00 286613322283" [ref=e737]:
+                  - cell "4877985 Store" [ref=e738] [cursor=pointer]:
+                    - generic [ref=e739]:
+                      - generic [ref=e740]: "4877985"
+                      - generic [ref=e741]: Store
+                  - cell "Picked Up" [ref=e742]:
+                    - generic [ref=e746]: Picked Up
+                  - cell "US-0103742510-PUIS" [ref=e747]:
+                    - generic [ref=e749]: US-0103742510-PUIS
+                  - cell "John Anderson" [ref=e750]:
+                    - generic [ref=e752]: John Anderson
+                  - cell "19 Mar 25" [ref=e753]:
+                    - generic [ref=e754]: 19 Mar 25
+                  - cell "09 Apr 25" [ref=e755]:
+                    - generic [ref=e756]: 09 Apr 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e757]:
+                    - generic [ref=e763]:
+                      - generic [ref=e764]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e765]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$320.00" [ref=e766] [cursor=pointer]:
+                    - generic [ref=e768]: $320.00
+                  - cell "286613322283" [ref=e769]:
+                    - list [ref=e770]:
+                      - listitem [ref=e771]:
+                        - link "286613322283" [ref=e772] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=286613322283
+                - row "4876776 Store Picked Up US-0103769450-PUIS LUKASZ GRABOWSKI 18 Mar 25 05 Apr 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $200.00 286554578040" [ref=e773]:
+                  - cell "4876776 Store" [ref=e774] [cursor=pointer]:
+                    - generic [ref=e775]:
+                      - generic [ref=e776]: "4876776"
+                      - generic [ref=e777]: Store
+                  - cell "Picked Up" [ref=e778]:
+                    - generic [ref=e782]: Picked Up
+                  - cell "US-0103769450-PUIS" [ref=e783]:
+                    - generic [ref=e785]: US-0103769450-PUIS
+                  - cell "LUKASZ GRABOWSKI" [ref=e786]:
+                    - generic [ref=e788]: LUKASZ GRABOWSKI
+                  - cell "18 Mar 25" [ref=e789]:
+                    - generic [ref=e790]: 18 Mar 25
+                  - cell "05 Apr 25" [ref=e791]:
+                    - generic [ref=e792]: 05 Apr 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e793]:
+                    - generic [ref=e799]:
+                      - generic [ref=e800]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e801]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$200.00" [ref=e802] [cursor=pointer]:
+                    - generic [ref=e804]: $200.00
+                  - cell "286554578040" [ref=e805]:
+                    - list [ref=e806]:
+                      - listitem [ref=e807]:
+                        - link "286554578040" [ref=e808] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=286554578040
+                - row "4893387 Store Picked Up US-0104017581-PUIS Victor Dragun 01 Apr 25 04 Apr 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $10.06 287087178396 287086808543" [ref=e809]:
+                  - cell "4893387 Store" [ref=e810] [cursor=pointer]:
+                    - generic [ref=e811]:
+                      - generic [ref=e812]: "4893387"
+                      - generic [ref=e813]: Store
+                  - cell "Picked Up" [ref=e814]:
+                    - generic [ref=e818]: Picked Up
+                  - cell "US-0104017581-PUIS" [ref=e819]:
+                    - generic [ref=e821]: US-0104017581-PUIS
+                  - cell "Victor Dragun" [ref=e822]:
+                    - generic [ref=e824]: Victor Dragun
+                  - cell "01 Apr 25" [ref=e825]:
+                    - generic [ref=e826]: 01 Apr 25
+                  - cell "04 Apr 25" [ref=e827]:
+                    - generic [ref=e828]: 04 Apr 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e829]:
+                    - generic [ref=e835]:
+                      - generic [ref=e836]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e837]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$10.06" [ref=e838] [cursor=pointer]:
+                    - generic [ref=e840]: $10.06
+                  - cell "287087178396 287086808543" [ref=e841]:
+                    - list [ref=e842]:
+                      - listitem [ref=e843]:
+                        - link "287087178396" [ref=e844] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=287087178396
+                      - listitem [ref=e845]:
+                        - link "287086808543" [ref=e846] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=287086808543
+                - row "4857811 Store Picked Up US-0103488933-PUIS RODRIGO MEIRELES 27 Feb 25 07 Mar 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $10.50 430229339419" [ref=e847]:
+                  - cell "4857811 Store" [ref=e848] [cursor=pointer]:
+                    - generic [ref=e849]:
+                      - generic [ref=e850]: "4857811"
+                      - generic [ref=e851]: Store
+                  - cell "Picked Up" [ref=e852]:
+                    - generic [ref=e856]: Picked Up
+                  - cell "US-0103488933-PUIS" [ref=e857]:
+                    - generic [ref=e859]: US-0103488933-PUIS
+                  - cell "RODRIGO MEIRELES" [ref=e860]:
+                    - generic [ref=e862]: RODRIGO MEIRELES
+                  - cell "27 Feb 25" [ref=e863]:
+                    - generic [ref=e864]: 27 Feb 25
+                  - cell "07 Mar 25" [ref=e865]:
+                    - generic [ref=e866]: 07 Mar 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e867]:
+                    - generic [ref=e873]:
+                      - generic [ref=e874]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e875]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$10.50" [ref=e876] [cursor=pointer]:
+                    - generic [ref=e878]: $10.50
+                  - cell "430229339419" [ref=e879]:
+                    - list [ref=e880]:
+                      - listitem [ref=e881]:
+                        - link "430229339419" [ref=e882] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=430229339419
+                - row "4848582 Store Picked Up US-0103231079-PUIS Jefferson Lima 12 Feb 25 19 Feb 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $532.00 430229279810" [ref=e883]:
+                  - cell "4848582 Store" [ref=e884] [cursor=pointer]:
+                    - generic [ref=e885]:
+                      - generic [ref=e886]: "4848582"
+                      - generic [ref=e887]: Store
+                  - cell "Picked Up" [ref=e888]:
+                    - generic [ref=e892]: Picked Up
+                  - cell "US-0103231079-PUIS" [ref=e893]:
+                    - generic [ref=e895]: US-0103231079-PUIS
+                  - cell "Jefferson Lima" [ref=e896]:
+                    - generic [ref=e898]: Jefferson Lima
+                  - cell "12 Feb 25" [ref=e899]:
+                    - generic [ref=e900]: 12 Feb 25
+                  - cell "19 Feb 25" [ref=e901]:
+                    - generic [ref=e902]: 19 Feb 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e903]:
+                    - generic [ref=e909]:
+                      - generic [ref=e910]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e911]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$532.00" [ref=e912] [cursor=pointer]:
+                    - generic [ref=e914]: $532.00
+                  - cell "430229279810" [ref=e915]:
+                    - list [ref=e916]:
+                      - listitem [ref=e917]:
+                        - link "430229279810" [ref=e918] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=430229279810
+                - row "4799431 Store Picked Up US-0102530676-PUIS Tim Romano Jr 02 Dec 24 03 Jan 25 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $639.99 430224604720" [ref=e919]:
+                  - cell "4799431 Store" [ref=e920] [cursor=pointer]:
+                    - generic [ref=e921]:
+                      - generic [ref=e922]: "4799431"
+                      - generic [ref=e923]: Store
+                  - cell "Picked Up" [ref=e924]:
+                    - generic [ref=e928]: Picked Up
+                  - cell "US-0102530676-PUIS" [ref=e929]:
+                    - generic [ref=e931]: US-0102530676-PUIS
+                  - cell "Tim Romano Jr" [ref=e932]:
+                    - generic [ref=e934]: Tim Romano Jr
+                  - cell "02 Dec 24" [ref=e935]:
+                    - generic [ref=e936]: 02 Dec 24
+                  - cell "03 Jan 25" [ref=e937]:
+                    - generic [ref=e938]: 03 Jan 25
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e939]:
+                    - generic [ref=e945]:
+                      - generic [ref=e946]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e947]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$639.99" [ref=e948] [cursor=pointer]:
+                    - generic [ref=e950]: $639.99
+                  - cell "430224604720" [ref=e951]:
+                    - list [ref=e952]:
+                      - listitem [ref=e953]:
+                        - link "430224604720" [ref=e954] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=430224604720
+                - row "4792128 Store Picked Up US-0102440503-PUIS Sean Montellese 29 Nov 24 18 Dec 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $102.00 425725797455" [ref=e955]:
+                  - cell "4792128 Store" [ref=e956] [cursor=pointer]:
+                    - generic [ref=e957]:
+                      - generic [ref=e958]: "4792128"
+                      - generic [ref=e959]: Store
+                  - cell "Picked Up" [ref=e960]:
+                    - generic [ref=e964]: Picked Up
+                  - cell "US-0102440503-PUIS" [ref=e965]:
+                    - generic [ref=e967]: US-0102440503-PUIS
+                  - cell "Sean Montellese" [ref=e968]:
+                    - generic [ref=e970]: Sean Montellese
+                  - cell "29 Nov 24" [ref=e971]:
+                    - generic [ref=e972]: 29 Nov 24
+                  - cell "18 Dec 24" [ref=e973]:
+                    - generic [ref=e974]: 18 Dec 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e975]:
+                    - generic [ref=e981]:
+                      - generic [ref=e982]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e983]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$102.00" [ref=e984] [cursor=pointer]:
+                    - generic [ref=e986]: $102.00
+                  - cell "425725797455" [ref=e987]:
+                    - list [ref=e988]:
+                      - listitem [ref=e989]:
+                        - link "425725797455" [ref=e990] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=425725797455
+                - row "4803272 Store Picked Up US-0102566386-PUIS Kathleen Centopani 06 Dec 24 14 Dec 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $25.20 430224954527" [ref=e991]:
+                  - cell "4803272 Store" [ref=e992] [cursor=pointer]:
+                    - generic [ref=e993]:
+                      - generic [ref=e994]: "4803272"
+                      - generic [ref=e995]: Store
+                  - cell "Picked Up" [ref=e996]:
+                    - generic [ref=e1000]: Picked Up
+                  - cell "US-0102566386-PUIS" [ref=e1001]:
+                    - generic [ref=e1003]: US-0102566386-PUIS
+                  - cell "Kathleen Centopani" [ref=e1004]:
+                    - generic [ref=e1006]: Kathleen Centopani
+                  - cell "06 Dec 24" [ref=e1007]:
+                    - generic [ref=e1008]: 06 Dec 24
+                  - cell "14 Dec 24" [ref=e1009]:
+                    - generic [ref=e1010]: 14 Dec 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1011]:
+                    - generic [ref=e1017]:
+                      - generic [ref=e1018]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1019]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$25.20" [ref=e1020] [cursor=pointer]:
+                    - generic [ref=e1022]: $25.20
+                  - cell "430224954527" [ref=e1023]:
+                    - list [ref=e1024]:
+                      - listitem [ref=e1025]:
+                        - link "430224954527" [ref=e1026] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=430224954527
+                - row "4772816 Store Picked Up US-0102155769-PUIS HOWARD LIPPER 07 Nov 24 15 Nov 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $22.49 425725643544 423384270016" [ref=e1027]:
+                  - cell "4772816 Store" [ref=e1028] [cursor=pointer]:
+                    - generic [ref=e1029]:
+                      - generic [ref=e1030]: "4772816"
+                      - generic [ref=e1031]: Store
+                  - cell "Picked Up" [ref=e1032]:
+                    - generic [ref=e1036]: Picked Up
+                  - cell "US-0102155769-PUIS" [ref=e1037]:
+                    - generic [ref=e1039]: US-0102155769-PUIS
+                  - cell "HOWARD LIPPER" [ref=e1040]:
+                    - generic [ref=e1042]: HOWARD LIPPER
+                  - cell "07 Nov 24" [ref=e1043]:
+                    - generic [ref=e1044]: 07 Nov 24
+                  - cell "15 Nov 24" [ref=e1045]:
+                    - generic [ref=e1046]: 15 Nov 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1047]:
+                    - generic [ref=e1053]:
+                      - generic [ref=e1054]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1055]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$22.49" [ref=e1056] [cursor=pointer]:
+                    - generic [ref=e1058]: $22.49
+                  - cell "425725643544 423384270016" [ref=e1059]:
+                    - list [ref=e1060]:
+                      - listitem [ref=e1061]:
+                        - link "425725643544" [ref=e1062] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=425725643544
+                      - listitem [ref=e1063]:
+                        - link "423384270016" [ref=e1064] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=423384270016
+                - row "4774540 Store Picked Up US-0102183472-PUIS Keith Rongey 10 Nov 24 14 Nov 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $38.00 423384276286" [ref=e1065]:
+                  - cell "4774540 Store" [ref=e1066] [cursor=pointer]:
+                    - generic [ref=e1067]:
+                      - generic [ref=e1068]: "4774540"
+                      - generic [ref=e1069]: Store
+                  - cell "Picked Up" [ref=e1070]:
+                    - generic [ref=e1074]: Picked Up
+                  - cell "US-0102183472-PUIS" [ref=e1075]:
+                    - generic [ref=e1077]: US-0102183472-PUIS
+                  - cell "Keith Rongey" [ref=e1078]:
+                    - generic [ref=e1080]: Keith Rongey
+                  - cell "10 Nov 24" [ref=e1081]:
+                    - generic [ref=e1082]: 10 Nov 24
+                  - cell "14 Nov 24" [ref=e1083]:
+                    - generic [ref=e1084]: 14 Nov 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1085]:
+                    - generic [ref=e1091]:
+                      - generic [ref=e1092]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1093]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$38.00" [ref=e1094] [cursor=pointer]:
+                    - generic [ref=e1096]: $38.00
+                  - cell "423384276286" [ref=e1097]:
+                    - list [ref=e1098]:
+                      - listitem [ref=e1099]:
+                        - link "423384276286" [ref=e1100] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=423384276286
+                - row "4750444 Store Picked Up US-0101863180-PUIS Don Gustavson 12 Oct 24 02 Nov 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $30.23 417197907240" [ref=e1101]:
+                  - cell "4750444 Store" [ref=e1102] [cursor=pointer]:
+                    - generic [ref=e1103]:
+                      - generic [ref=e1104]: "4750444"
+                      - generic [ref=e1105]: Store
+                  - cell "Picked Up" [ref=e1106]:
+                    - generic [ref=e1110]: Picked Up
+                  - cell "US-0101863180-PUIS" [ref=e1111]:
+                    - generic [ref=e1113]: US-0101863180-PUIS
+                  - cell "Don Gustavson" [ref=e1114]:
+                    - generic [ref=e1116]: Don Gustavson
+                  - cell "12 Oct 24" [ref=e1117]:
+                    - generic [ref=e1118]: 12 Oct 24
+                  - cell "02 Nov 24" [ref=e1119]:
+                    - generic [ref=e1120]: 02 Nov 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1121]:
+                    - generic [ref=e1127]:
+                      - generic [ref=e1128]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1129]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$30.23" [ref=e1130] [cursor=pointer]:
+                    - generic [ref=e1132]: $30.23
+                  - cell "417197907240" [ref=e1133]:
+                    - list [ref=e1134]:
+                      - listitem [ref=e1135]:
+                        - link "417197907240" [ref=e1136] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=417197907240
+                - row "4747462 Store Picked Up US-0101820326-PUIS James Burns 09 Oct 24 16 Oct 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $8.61 417197892737 417197892520" [ref=e1137]:
+                  - cell "4747462 Store" [ref=e1138] [cursor=pointer]:
+                    - generic [ref=e1139]:
+                      - generic [ref=e1140]: "4747462"
+                      - generic [ref=e1141]: Store
+                  - cell "Picked Up" [ref=e1142]:
+                    - generic [ref=e1146]: Picked Up
+                  - cell "US-0101820326-PUIS" [ref=e1147]:
+                    - generic [ref=e1149]: US-0101820326-PUIS
+                  - cell "James Burns" [ref=e1150]:
+                    - generic [ref=e1152]: James Burns
+                  - cell "09 Oct 24" [ref=e1153]:
+                    - generic [ref=e1154]: 09 Oct 24
+                  - cell "16 Oct 24" [ref=e1155]:
+                    - generic [ref=e1156]: 16 Oct 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1157]:
+                    - generic [ref=e1163]:
+                      - generic [ref=e1164]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1165]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$8.61" [ref=e1166] [cursor=pointer]:
+                    - generic [ref=e1168]: $8.61
+                  - cell "417197892737 417197892520" [ref=e1169]:
+                    - list [ref=e1170]:
+                      - listitem [ref=e1171]:
+                        - link "417197892737" [ref=e1172] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=417197892737
+                      - listitem [ref=e1173]:
+                        - link "417197892520" [ref=e1174] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=417197892520
+                - row "4728725 Store Picked Up US-0101558776-PUIS ARIEL PEREZ 19 Sep 24 25 Sep 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $270.02 734655992750" [ref=e1175]:
+                  - cell "4728725 Store" [ref=e1176] [cursor=pointer]:
+                    - generic [ref=e1177]:
+                      - generic [ref=e1178]: "4728725"
+                      - generic [ref=e1179]: Store
+                  - cell "Picked Up" [ref=e1180]:
+                    - generic [ref=e1184]: Picked Up
+                  - cell "US-0101558776-PUIS" [ref=e1185]:
+                    - generic [ref=e1187]: US-0101558776-PUIS
+                  - cell "ARIEL PEREZ" [ref=e1188]:
+                    - generic [ref=e1190]: ARIEL PEREZ
+                  - cell "19 Sep 24" [ref=e1191]:
+                    - generic [ref=e1192]: 19 Sep 24
+                  - cell "25 Sep 24" [ref=e1193]:
+                    - generic [ref=e1194]: 25 Sep 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1195]:
+                    - generic [ref=e1201]:
+                      - generic [ref=e1202]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1203]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$270.02" [ref=e1204] [cursor=pointer]:
+                    - generic [ref=e1206]: $270.02
+                  - cell "734655992750" [ref=e1207]:
+                    - list [ref=e1208]:
+                      - listitem [ref=e1209]:
+                        - link "734655992750" [ref=e1210] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=734655992750
+                - row "4656519 Store Picked Up US-0100774726-PUIS Eric Montgomery 19 Jul 24 26 Jul 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,105.00 408514264400" [ref=e1211]:
+                  - cell "4656519 Store" [ref=e1212] [cursor=pointer]:
+                    - generic [ref=e1213]:
+                      - generic [ref=e1214]: "4656519"
+                      - generic [ref=e1215]: Store
+                  - cell "Picked Up" [ref=e1216]:
+                    - generic [ref=e1220]: Picked Up
+                  - cell "US-0100774726-PUIS" [ref=e1221]:
+                    - generic [ref=e1223]: US-0100774726-PUIS
+                  - cell "Eric Montgomery" [ref=e1224]:
+                    - generic [ref=e1226]: Eric Montgomery
+                  - cell "19 Jul 24" [ref=e1227]:
+                    - generic [ref=e1228]: 19 Jul 24
+                  - cell "26 Jul 24" [ref=e1229]:
+                    - generic [ref=e1230]: 26 Jul 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1231]:
+                    - generic [ref=e1237]:
+                      - generic [ref=e1238]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1239]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,105.00" [ref=e1240] [cursor=pointer]:
+                    - generic [ref=e1242]: $1,105.00
+                  - cell "408514264400" [ref=e1243]:
+                    - list [ref=e1244]:
+                      - listitem [ref=e1245]:
+                        - link "408514264400" [ref=e1246] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=408514264400
+                - row "4645142 Store Picked Up US-0100620015-PUIS Evgeni Gofman 10 Jul 24 20 Jul 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $520.00 743379313918" [ref=e1247]:
+                  - cell "4645142 Store" [ref=e1248] [cursor=pointer]:
+                    - generic [ref=e1249]:
+                      - generic [ref=e1250]: "4645142"
+                      - generic [ref=e1251]: Store
+                  - cell "Picked Up" [ref=e1252]:
+                    - generic [ref=e1256]: Picked Up
+                  - cell "US-0100620015-PUIS" [ref=e1257]:
+                    - generic [ref=e1259]: US-0100620015-PUIS
+                  - cell "Evgeni Gofman" [ref=e1260]:
+                    - generic [ref=e1262]: Evgeni Gofman
+                  - cell "10 Jul 24" [ref=e1263]:
+                    - generic [ref=e1264]: 10 Jul 24
+                  - cell "20 Jul 24" [ref=e1265]:
+                    - generic [ref=e1266]: 20 Jul 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1267]:
+                    - generic [ref=e1273]:
+                      - generic [ref=e1274]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1275]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$520.00" [ref=e1276] [cursor=pointer]:
+                    - generic [ref=e1278]: $520.00
+                  - cell "743379313918" [ref=e1279]:
+                    - list [ref=e1280]:
+                      - listitem [ref=e1281]:
+                        - link "743379313918" [ref=e1282] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=743379313918
+                - row "4629137 Store Picked Up US-0100369787-PUIS Jennifer Grega 27 Jun 24 10 Jul 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $42.50 743379191928" [ref=e1283]:
+                  - cell "4629137 Store" [ref=e1284] [cursor=pointer]:
+                    - generic [ref=e1285]:
+                      - generic [ref=e1286]: "4629137"
+                      - generic [ref=e1287]: Store
+                  - cell "Picked Up" [ref=e1288]:
+                    - generic [ref=e1292]: Picked Up
+                  - cell "US-0100369787-PUIS" [ref=e1293]:
+                    - generic [ref=e1295]: US-0100369787-PUIS
+                  - cell "Jennifer Grega" [ref=e1296]:
+                    - generic [ref=e1298]: Jennifer Grega
+                  - cell "27 Jun 24" [ref=e1299]:
+                    - generic [ref=e1300]: 27 Jun 24
+                  - cell "10 Jul 24" [ref=e1301]:
+                    - generic [ref=e1302]: 10 Jul 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1303]:
+                    - generic [ref=e1309]:
+                      - generic [ref=e1310]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1311]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$42.50" [ref=e1312] [cursor=pointer]:
+                    - generic [ref=e1314]: $42.50
+                  - cell "743379191928" [ref=e1315]:
+                    - list [ref=e1316]:
+                      - listitem [ref=e1317]:
+                        - link "743379191928" [ref=e1318] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=743379191928
+                - row "4628449 Store Picked Up US-0100395958-PUIS ANSHUM VERULKAR 27 Jun 24 09 Jul 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $520.00 743379184010" [ref=e1319]:
+                  - cell "4628449 Store" [ref=e1320] [cursor=pointer]:
+                    - generic [ref=e1321]:
+                      - generic [ref=e1322]: "4628449"
+                      - generic [ref=e1323]: Store
+                  - cell "Picked Up" [ref=e1324]:
+                    - generic [ref=e1328]: Picked Up
+                  - cell "US-0100395958-PUIS" [ref=e1329]:
+                    - generic [ref=e1331]: US-0100395958-PUIS
+                  - cell "ANSHUM VERULKAR" [ref=e1332]:
+                    - generic [ref=e1334]: ANSHUM VERULKAR
+                  - cell "27 Jun 24" [ref=e1335]:
+                    - generic [ref=e1336]: 27 Jun 24
+                  - cell "09 Jul 24" [ref=e1337]:
+                    - generic [ref=e1338]: 09 Jul 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1339]:
+                    - generic [ref=e1345]:
+                      - generic [ref=e1346]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1347]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$520.00" [ref=e1348] [cursor=pointer]:
+                    - generic [ref=e1350]: $520.00
+                  - cell "743379184010" [ref=e1351]:
+                    - list [ref=e1352]:
+                      - listitem [ref=e1353]:
+                        - link "743379184010" [ref=e1354] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=743379184010
+                - row "4515612 Store Picked Up US-0098911909-PUIS Todd Rawiszer 07 Apr 24 29 Jun 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 738971042452" [ref=e1355]:
+                  - cell "4515612 Store" [ref=e1356] [cursor=pointer]:
+                    - generic [ref=e1357]:
+                      - generic [ref=e1358]: "4515612"
+                      - generic [ref=e1359]: Store
+                  - cell "Picked Up" [ref=e1360]:
+                    - generic [ref=e1364]: Picked Up
+                  - cell "US-0098911909-PUIS" [ref=e1365]:
+                    - generic [ref=e1367]: US-0098911909-PUIS
+                  - cell "Todd Rawiszer" [ref=e1368]:
+                    - generic [ref=e1370]: Todd Rawiszer
+                  - cell "07 Apr 24" [ref=e1371]:
+                    - generic [ref=e1372]: 07 Apr 24
+                  - cell "29 Jun 24" [ref=e1373]:
+                    - generic [ref=e1374]: 29 Jun 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1375]:
+                    - generic [ref=e1381]:
+                      - generic [ref=e1382]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1383]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "738971042452" [ref=e1384]:
+                    - list [ref=e1385]:
+                      - listitem [ref=e1386]:
+                        - link "738971042452" [ref=e1387] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=738971042452
+                - row "4574779 Store Picked Up US-0099698259-PUIS Karen Schur 18 May 24 29 Jun 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $5.47 742474308453" [ref=e1388]:
+                  - cell "4574779 Store" [ref=e1389] [cursor=pointer]:
+                    - generic [ref=e1390]:
+                      - generic [ref=e1391]: "4574779"
+                      - generic [ref=e1392]: Store
+                  - cell "Picked Up" [ref=e1393]:
+                    - generic [ref=e1397]: Picked Up
+                  - cell "US-0099698259-PUIS" [ref=e1398]:
+                    - generic [ref=e1400]: US-0099698259-PUIS
+                  - cell "Karen Schur" [ref=e1401]:
+                    - generic [ref=e1403]: Karen Schur
+                  - cell "18 May 24" [ref=e1404]:
+                    - generic [ref=e1405]: 18 May 24
+                  - cell "29 Jun 24" [ref=e1406]:
+                    - generic [ref=e1407]: 29 Jun 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1408]:
+                    - generic [ref=e1414]:
+                      - generic [ref=e1415]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1416]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$5.47" [ref=e1417] [cursor=pointer]:
+                    - generic [ref=e1419]: $5.47
+                  - cell "742474308453" [ref=e1420]:
+                    - list [ref=e1421]:
+                      - listitem [ref=e1422]:
+                        - link "742474308453" [ref=e1423] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742474308453
+                - row "4593087 Store Picked Up US-0099960892-PUIS Henry Feuerstein 02 Jun 24 14 Jun 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $225.00 728933881380" [ref=e1424]:
+                  - cell "4593087 Store" [ref=e1425] [cursor=pointer]:
+                    - generic [ref=e1426]:
+                      - generic [ref=e1427]: "4593087"
+                      - generic [ref=e1428]: Store
+                  - cell "Picked Up" [ref=e1429]:
+                    - generic [ref=e1433]: Picked Up
+                  - cell "US-0099960892-PUIS" [ref=e1434]:
+                    - generic [ref=e1436]: US-0099960892-PUIS
+                  - cell "Henry Feuerstein" [ref=e1437]:
+                    - generic [ref=e1439]: Henry Feuerstein
+                  - cell "02 Jun 24" [ref=e1440]:
+                    - generic [ref=e1441]: 02 Jun 24
+                  - cell "14 Jun 24" [ref=e1442]:
+                    - generic [ref=e1443]: 14 Jun 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1444]:
+                    - generic [ref=e1450]:
+                      - generic [ref=e1451]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1452]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$225.00" [ref=e1453] [cursor=pointer]:
+                    - generic [ref=e1455]: $225.00
+                  - cell "728933881380" [ref=e1456]:
+                    - list [ref=e1457]:
+                      - listitem [ref=e1458]:
+                        - link "728933881380" [ref=e1459] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=728933881380
+                - row "4594436 Store Picked Up US-0099981398-PUIS Eric Montgomery 03 Jun 24 07 Jun 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $36.00 728933906608" [ref=e1460]:
+                  - cell "4594436 Store" [ref=e1461] [cursor=pointer]:
+                    - generic [ref=e1462]:
+                      - generic [ref=e1463]: "4594436"
+                      - generic [ref=e1464]: Store
+                  - cell "Picked Up" [ref=e1465]:
+                    - generic [ref=e1469]: Picked Up
+                  - cell "US-0099981398-PUIS" [ref=e1470]:
+                    - generic [ref=e1472]: US-0099981398-PUIS
+                  - cell "Eric Montgomery" [ref=e1473]:
+                    - generic [ref=e1475]: Eric Montgomery
+                  - cell "03 Jun 24" [ref=e1476]:
+                    - generic [ref=e1477]: 03 Jun 24
+                  - cell "07 Jun 24" [ref=e1478]:
+                    - generic [ref=e1479]: 07 Jun 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1480]:
+                    - generic [ref=e1486]:
+                      - generic [ref=e1487]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1488]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$36.00" [ref=e1489] [cursor=pointer]:
+                    - generic [ref=e1491]: $36.00
+                  - cell "728933906608" [ref=e1492]:
+                    - list [ref=e1493]:
+                      - listitem [ref=e1494]:
+                        - link "728933906608" [ref=e1495] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=728933906608
+                - row "4577656 Employee Purchase Picked Up US-0099735968-PUIS DANIEL CALARCO 20 May 24 05 Jun 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 742479378040" [ref=e1496]:
+                  - cell "4577656 Employee Purchase" [ref=e1497] [cursor=pointer]:
+                    - generic [ref=e1498]:
+                      - generic [ref=e1499]: "4577656"
+                      - generic [ref=e1500]: Employee Purchase
+                  - cell "Picked Up" [ref=e1501]:
+                    - generic [ref=e1505]: Picked Up
+                  - cell "US-0099735968-PUIS" [ref=e1506]:
+                    - generic [ref=e1508]: US-0099735968-PUIS
+                  - cell "DANIEL CALARCO" [ref=e1509]:
+                    - generic [ref=e1511]: DANIEL CALARCO
+                  - cell "20 May 24" [ref=e1512]:
+                    - generic [ref=e1513]: 20 May 24
+                  - cell "05 Jun 24" [ref=e1514]:
+                    - generic [ref=e1515]: 05 Jun 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1516]:
+                    - generic [ref=e1522]:
+                      - generic [ref=e1523]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1524]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "742479378040" [ref=e1525]:
+                    - list [ref=e1526]:
+                      - listitem [ref=e1527]:
+                        - link "742479378040" [ref=e1528] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742479378040
+                - row "4584576 Store Picked Up US-0099718146-PUIS DANIEL IM 26 May 24 01 Jun 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $34.00 742479400744" [ref=e1529]:
+                  - cell "4584576 Store" [ref=e1530] [cursor=pointer]:
+                    - generic [ref=e1531]:
+                      - generic [ref=e1532]: "4584576"
+                      - generic [ref=e1533]: Store
+                  - cell "Picked Up" [ref=e1534]:
+                    - generic [ref=e1538]: Picked Up
+                  - cell "US-0099718146-PUIS" [ref=e1539]:
+                    - generic [ref=e1541]: US-0099718146-PUIS
+                  - cell "DANIEL IM" [ref=e1542]:
+                    - generic [ref=e1544]: DANIEL IM
+                  - cell "26 May 24" [ref=e1545]:
+                    - generic [ref=e1546]: 26 May 24
+                  - cell "01 Jun 24" [ref=e1547]:
+                    - generic [ref=e1548]: 01 Jun 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1549]:
+                    - generic [ref=e1555]:
+                      - generic [ref=e1556]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1557]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$34.00" [ref=e1558] [cursor=pointer]:
+                    - generic [ref=e1560]: $34.00
+                  - cell "742479400744" [ref=e1561]:
+                    - list [ref=e1562]:
+                      - listitem [ref=e1563]:
+                        - link "742479400744" [ref=e1564] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742479400744
+                - row "4580373 Store Picked Up US-0099778403-PUIS STEVEN LORANGER 22 May 24 31 May 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $216.00 742479388625" [ref=e1565]:
+                  - cell "4580373 Store" [ref=e1566] [cursor=pointer]:
+                    - generic [ref=e1567]:
+                      - generic [ref=e1568]: "4580373"
+                      - generic [ref=e1569]: Store
+                  - cell "Picked Up" [ref=e1570]:
+                    - generic [ref=e1574]: Picked Up
+                  - cell "US-0099778403-PUIS" [ref=e1575]:
+                    - generic [ref=e1577]: US-0099778403-PUIS
+                  - cell "STEVEN LORANGER" [ref=e1578]:
+                    - generic [ref=e1580]: STEVEN LORANGER
+                  - cell "22 May 24" [ref=e1581]:
+                    - generic [ref=e1582]: 22 May 24
+                  - cell "31 May 24" [ref=e1583]:
+                    - generic [ref=e1584]: 31 May 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1585]:
+                    - generic [ref=e1591]:
+                      - generic [ref=e1592]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1593]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$216.00" [ref=e1594] [cursor=pointer]:
+                    - generic [ref=e1596]: $216.00
+                  - cell "742479388625" [ref=e1597]:
+                    - list [ref=e1598]:
+                      - listitem [ref=e1599]:
+                        - link "742479388625" [ref=e1600] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742479388625
+                - row "4577642 Employee Purchase Picked Up US-0099737478-PUIS DANIEL CALARCO 20 May 24 28 May 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 742479378040 742474315168" [ref=e1601]:
+                  - cell "4577642 Employee Purchase" [ref=e1602] [cursor=pointer]:
+                    - generic [ref=e1603]:
+                      - generic [ref=e1604]: "4577642"
+                      - generic [ref=e1605]: Employee Purchase
+                  - cell "Picked Up" [ref=e1606]:
+                    - generic [ref=e1610]: Picked Up
+                  - cell "US-0099737478-PUIS" [ref=e1611]:
+                    - generic [ref=e1613]: US-0099737478-PUIS
+                  - cell "DANIEL CALARCO" [ref=e1614]:
+                    - generic [ref=e1616]: DANIEL CALARCO
+                  - cell "20 May 24" [ref=e1617]:
+                    - generic [ref=e1618]: 20 May 24
+                  - cell "28 May 24" [ref=e1619]:
+                    - generic [ref=e1620]: 28 May 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1621]:
+                    - generic [ref=e1627]:
+                      - generic [ref=e1628]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1629]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "742479378040 742474315168" [ref=e1630]:
+                    - list [ref=e1631]:
+                      - listitem [ref=e1632]:
+                        - link "742479378040" [ref=e1633] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742479378040
+                      - listitem [ref=e1634]:
+                        - link "742474315168" [ref=e1635] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742474315168
+                - row "4575547 Store Picked Up US-0099636524-PUIS DANIEL IM 19 May 24 25 May 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $112.00 742479367822" [ref=e1636]:
+                  - cell "4575547 Store" [ref=e1637] [cursor=pointer]:
+                    - generic [ref=e1638]:
+                      - generic [ref=e1639]: "4575547"
+                      - generic [ref=e1640]: Store
+                  - cell "Picked Up" [ref=e1641]:
+                    - generic [ref=e1645]: Picked Up
+                  - cell "US-0099636524-PUIS" [ref=e1646]:
+                    - generic [ref=e1648]: US-0099636524-PUIS
+                  - cell "DANIEL IM" [ref=e1649]:
+                    - generic [ref=e1651]: DANIEL IM
+                  - cell "19 May 24" [ref=e1652]:
+                    - generic [ref=e1653]: 19 May 24
+                  - cell "25 May 24" [ref=e1654]:
+                    - generic [ref=e1655]: 25 May 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1656]:
+                    - generic [ref=e1662]:
+                      - generic [ref=e1663]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1664]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$112.00" [ref=e1665] [cursor=pointer]:
+                    - generic [ref=e1667]: $112.00
+                  - cell "742479367822" [ref=e1668]:
+                    - list [ref=e1669]:
+                      - listitem [ref=e1670]:
+                        - link "742479367822" [ref=e1671] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742479367822
+                - row "4575893 Store Picked Up US-0099712743-PUIS DANIEL IM 19 May 24 25 May 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $42.50 742479367660" [ref=e1672]:
+                  - cell "4575893 Store" [ref=e1673] [cursor=pointer]:
+                    - generic [ref=e1674]:
+                      - generic [ref=e1675]: "4575893"
+                      - generic [ref=e1676]: Store
+                  - cell "Picked Up" [ref=e1677]:
+                    - generic [ref=e1681]: Picked Up
+                  - cell "US-0099712743-PUIS" [ref=e1682]:
+                    - generic [ref=e1684]: US-0099712743-PUIS
+                  - cell "DANIEL IM" [ref=e1685]:
+                    - generic [ref=e1687]: DANIEL IM
+                  - cell "19 May 24" [ref=e1688]:
+                    - generic [ref=e1689]: 19 May 24
+                  - cell "25 May 24" [ref=e1690]:
+                    - generic [ref=e1691]: 25 May 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1692]:
+                    - generic [ref=e1698]:
+                      - generic [ref=e1699]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1700]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$42.50" [ref=e1701] [cursor=pointer]:
+                    - generic [ref=e1703]: $42.50
+                  - cell "742479367660" [ref=e1704]:
+                    - list [ref=e1705]:
+                      - listitem [ref=e1706]:
+                        - link "742479367660" [ref=e1707] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742479367660
+                - row "4555472 Store Picked Up US-0099412944-PUIS CARLOS RIVERA 03 May 24 20 May 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $152.00 742474168773" [ref=e1708]:
+                  - cell "4555472 Store" [ref=e1709] [cursor=pointer]:
+                    - generic [ref=e1710]:
+                      - generic [ref=e1711]: "4555472"
+                      - generic [ref=e1712]: Store
+                  - cell "Picked Up" [ref=e1713]:
+                    - generic [ref=e1717]: Picked Up
+                  - cell "US-0099412944-PUIS" [ref=e1718]:
+                    - generic [ref=e1720]: US-0099412944-PUIS
+                  - cell "CARLOS RIVERA" [ref=e1721]:
+                    - generic [ref=e1723]: CARLOS RIVERA
+                  - cell "03 May 24" [ref=e1724]:
+                    - generic [ref=e1725]: 03 May 24
+                  - cell "20 May 24" [ref=e1726]:
+                    - generic [ref=e1727]: 20 May 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1728]:
+                    - generic [ref=e1734]:
+                      - generic [ref=e1735]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1736]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$152.00" [ref=e1737] [cursor=pointer]:
+                    - generic [ref=e1739]: $152.00
+                  - cell "742474168773" [ref=e1740]:
+                    - list [ref=e1741]:
+                      - listitem [ref=e1742]:
+                        - link "742474168773" [ref=e1743] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=742474168773
+                - row "4540954 Store Picked Up US-0099221140-PUIS DR.JOHN SALERNO 24 Apr 24 10 May 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $225.00 738701496083" [ref=e1744]:
+                  - cell "4540954 Store" [ref=e1745] [cursor=pointer]:
+                    - generic [ref=e1746]:
+                      - generic [ref=e1747]: "4540954"
+                      - generic [ref=e1748]: Store
+                  - cell "Picked Up" [ref=e1749]:
+                    - generic [ref=e1753]: Picked Up
+                  - cell "US-0099221140-PUIS" [ref=e1754]:
+                    - generic [ref=e1756]: US-0099221140-PUIS
+                  - cell "DR.JOHN SALERNO" [ref=e1757]:
+                    - generic [ref=e1759]: DR.JOHN SALERNO
+                  - cell "24 Apr 24" [ref=e1760]:
+                    - generic [ref=e1761]: 24 Apr 24
+                  - cell "10 May 24" [ref=e1762]:
+                    - generic [ref=e1763]: 10 May 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1764]:
+                    - generic [ref=e1770]:
+                      - generic [ref=e1771]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1772]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$225.00" [ref=e1773] [cursor=pointer]:
+                    - generic [ref=e1775]: $225.00
+                  - cell "738701496083" [ref=e1776]:
+                    - list [ref=e1777]:
+                      - listitem [ref=e1778]:
+                        - link "738701496083" [ref=e1779] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=738701496083
+                - row "4556172 Store Picked Up US-0099427273-PUIS Erika Smith 04 May 24 10 May 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $28.00 61290335276020633591" [ref=e1780]:
+                  - cell "4556172 Store" [ref=e1781] [cursor=pointer]:
+                    - generic [ref=e1782]:
+                      - generic [ref=e1783]: "4556172"
+                      - generic [ref=e1784]: Store
+                  - cell "Picked Up" [ref=e1785]:
+                    - generic [ref=e1789]: Picked Up
+                  - cell "US-0099427273-PUIS" [ref=e1790]:
+                    - generic [ref=e1792]: US-0099427273-PUIS
+                  - cell "Erika Smith" [ref=e1793]:
+                    - generic [ref=e1795]: Erika Smith
+                  - cell "04 May 24" [ref=e1796]:
+                    - generic [ref=e1797]: 04 May 24
+                  - cell "10 May 24" [ref=e1798]:
+                    - generic [ref=e1799]: 10 May 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1800]:
+                    - generic [ref=e1806]:
+                      - generic [ref=e1807]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1808]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$28.00" [ref=e1809] [cursor=pointer]:
+                    - generic [ref=e1811]: $28.00
+                  - cell "61290335276020633591" [ref=e1812]:
+                    - list [ref=e1813]:
+                      - listitem [ref=e1814]:
+                        - link "61290335276020633591" [ref=e1815] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=61290335276020633591
+                - row "4494484 Store Picked Up US-0098122011-PUIS DERWIN LOBLACK 22 Mar 24 13 Apr 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $12.58 733686400092" [ref=e1816]:
+                  - cell "4494484 Store" [ref=e1817] [cursor=pointer]:
+                    - generic [ref=e1818]:
+                      - generic [ref=e1819]: "4494484"
+                      - generic [ref=e1820]: Store
+                  - cell "Picked Up" [ref=e1821]:
+                    - generic [ref=e1825]: Picked Up
+                  - cell "US-0098122011-PUIS" [ref=e1826]:
+                    - generic [ref=e1828]: US-0098122011-PUIS
+                  - cell "DERWIN LOBLACK" [ref=e1829]:
+                    - generic [ref=e1831]: DERWIN LOBLACK
+                  - cell "22 Mar 24" [ref=e1832]:
+                    - generic [ref=e1833]: 22 Mar 24
+                  - cell "13 Apr 24" [ref=e1834]:
+                    - generic [ref=e1835]: 13 Apr 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1836]:
+                    - generic [ref=e1842]:
+                      - generic [ref=e1843]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1844]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$12.58" [ref=e1845] [cursor=pointer]:
+                    - generic [ref=e1847]: $12.58
+                  - cell "733686400092" [ref=e1848]:
+                    - list [ref=e1849]:
+                      - listitem [ref=e1850]:
+                        - link "733686400092" [ref=e1851] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=733686400092
+                - row "4513460 Store Picked Up US-0098881234-PUIS STEVEN CUMMINS 05 Apr 24 12 Apr 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $88.00 733686524622" [ref=e1852]:
+                  - cell "4513460 Store" [ref=e1853] [cursor=pointer]:
+                    - generic [ref=e1854]:
+                      - generic [ref=e1855]: "4513460"
+                      - generic [ref=e1856]: Store
+                  - cell "Picked Up" [ref=e1857]:
+                    - generic [ref=e1861]: Picked Up
+                  - cell "US-0098881234-PUIS" [ref=e1862]:
+                    - generic [ref=e1864]: US-0098881234-PUIS
+                  - cell "STEVEN CUMMINS" [ref=e1865]:
+                    - generic [ref=e1867]: STEVEN CUMMINS
+                  - cell "05 Apr 24" [ref=e1868]:
+                    - generic [ref=e1869]: 05 Apr 24
+                  - cell "12 Apr 24" [ref=e1870]:
+                    - generic [ref=e1871]: 12 Apr 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1872]:
+                    - generic [ref=e1878]:
+                      - generic [ref=e1879]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1880]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$88.00" [ref=e1881] [cursor=pointer]:
+                    - generic [ref=e1883]: $88.00
+                  - cell "733686524622" [ref=e1884]:
+                    - list [ref=e1885]:
+                      - listitem [ref=e1886]:
+                        - link "733686524622" [ref=e1887] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=733686524622
+                - row "4503696 Store Picked Up US-0098765665-PUIS Olaf Auerbach 29 Mar 24 09 Apr 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $60.00 733686461944" [ref=e1888]:
+                  - cell "4503696 Store" [ref=e1889] [cursor=pointer]:
+                    - generic [ref=e1890]:
+                      - generic [ref=e1891]: "4503696"
+                      - generic [ref=e1892]: Store
+                  - cell "Picked Up" [ref=e1893]:
+                    - generic [ref=e1897]: Picked Up
+                  - cell "US-0098765665-PUIS" [ref=e1898]:
+                    - generic [ref=e1900]: US-0098765665-PUIS
+                  - cell "Olaf Auerbach" [ref=e1901]:
+                    - generic [ref=e1903]: Olaf Auerbach
+                  - cell "29 Mar 24" [ref=e1904]:
+                    - generic [ref=e1905]: 29 Mar 24
+                  - cell "09 Apr 24" [ref=e1906]:
+                    - generic [ref=e1907]: 09 Apr 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1908]:
+                    - generic [ref=e1914]:
+                      - generic [ref=e1915]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1916]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$60.00" [ref=e1917] [cursor=pointer]:
+                    - generic [ref=e1919]: $60.00
+                  - cell "733686461944" [ref=e1920]:
+                    - list [ref=e1921]:
+                      - listitem [ref=e1922]:
+                        - link "733686461944" [ref=e1923] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=733686461944
+                - row "4505206 Store Picked Up US-0098782483-PUIS Julian Grijns 30 Mar 24 04 Apr 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $6.48 733686463270" [ref=e1924]:
+                  - cell "4505206 Store" [ref=e1925] [cursor=pointer]:
+                    - generic [ref=e1926]:
+                      - generic [ref=e1927]: "4505206"
+                      - generic [ref=e1928]: Store
+                  - cell "Picked Up" [ref=e1929]:
+                    - generic [ref=e1933]: Picked Up
+                  - cell "US-0098782483-PUIS" [ref=e1934]:
+                    - generic [ref=e1936]: US-0098782483-PUIS
+                  - cell "Julian Grijns" [ref=e1937]:
+                    - generic [ref=e1939]: Julian Grijns
+                  - cell "30 Mar 24" [ref=e1940]:
+                    - generic [ref=e1941]: 30 Mar 24
+                  - cell "04 Apr 24" [ref=e1942]:
+                    - generic [ref=e1943]: 04 Apr 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1944]:
+                    - generic [ref=e1950]:
+                      - generic [ref=e1951]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1952]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$6.48" [ref=e1953] [cursor=pointer]:
+                    - generic [ref=e1955]: $6.48
+                  - cell "733686463270" [ref=e1956]:
+                    - list [ref=e1957]:
+                      - listitem [ref=e1958]:
+                        - link "733686463270" [ref=e1959] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=733686463270
+                - row "4500892 Store Picked Up US-0098721849-PUIS CHARLES GANDER 27 Mar 24 30 Mar 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $3.15 733686447870" [ref=e1960]:
+                  - cell "4500892 Store" [ref=e1961] [cursor=pointer]:
+                    - generic [ref=e1962]:
+                      - generic [ref=e1963]: "4500892"
+                      - generic [ref=e1964]: Store
+                  - cell "Picked Up" [ref=e1965]:
+                    - generic [ref=e1969]: Picked Up
+                  - cell "US-0098721849-PUIS" [ref=e1970]:
+                    - generic [ref=e1972]: US-0098721849-PUIS
+                  - cell "CHARLES GANDER" [ref=e1973]:
+                    - generic [ref=e1975]: CHARLES GANDER
+                  - cell "27 Mar 24" [ref=e1976]:
+                    - generic [ref=e1977]: 27 Mar 24
+                  - cell "30 Mar 24" [ref=e1978]:
+                    - generic [ref=e1979]: 30 Mar 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e1980]:
+                    - generic [ref=e1986]:
+                      - generic [ref=e1987]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e1988]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$3.15" [ref=e1989] [cursor=pointer]:
+                    - generic [ref=e1991]: $3.15
+                  - cell "733686447870" [ref=e1992]:
+                    - list [ref=e1993]:
+                      - listitem [ref=e1994]:
+                        - link "733686447870" [ref=e1995] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=733686447870
+                - row "4480924 Employee Purchase Picked Up US-0098461236-PUIS DANIEL CALARCO 12 Mar 24 24 Mar 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 728703392992" [ref=e1996]:
+                  - cell "4480924 Employee Purchase" [ref=e1997] [cursor=pointer]:
+                    - generic [ref=e1998]:
+                      - generic [ref=e1999]: "4480924"
+                      - generic [ref=e2000]: Employee Purchase
+                  - cell "Picked Up" [ref=e2001]:
+                    - generic [ref=e2005]: Picked Up
+                  - cell "US-0098461236-PUIS" [ref=e2006]:
+                    - generic [ref=e2008]: US-0098461236-PUIS
+                  - cell "DANIEL CALARCO" [ref=e2009]:
+                    - generic [ref=e2011]: DANIEL CALARCO
+                  - cell "12 Mar 24" [ref=e2012]:
+                    - generic [ref=e2013]: 12 Mar 24
+                  - cell "24 Mar 24" [ref=e2014]:
+                    - generic [ref=e2015]: 24 Mar 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2016]:
+                    - generic [ref=e2022]:
+                      - generic [ref=e2023]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2024]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "728703392992" [ref=e2025]:
+                    - list [ref=e2026]:
+                      - listitem [ref=e2027]:
+                        - link "728703392992" [ref=e2028] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=728703392992
+                - row "4488159 Store Picked Up US-0098537743-PUIS Apple Long 17 Mar 24 22 Mar 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $5.47 733686358235" [ref=e2029]:
+                  - cell "4488159 Store" [ref=e2030] [cursor=pointer]:
+                    - generic [ref=e2031]:
+                      - generic [ref=e2032]: "4488159"
+                      - generic [ref=e2033]: Store
+                  - cell "Picked Up" [ref=e2034]:
+                    - generic [ref=e2038]: Picked Up
+                  - cell "US-0098537743-PUIS" [ref=e2039]:
+                    - generic [ref=e2041]: US-0098537743-PUIS
+                  - cell "Apple Long" [ref=e2042]:
+                    - generic [ref=e2044]: Apple Long
+                  - cell "17 Mar 24" [ref=e2045]:
+                    - generic [ref=e2046]: 17 Mar 24
+                  - cell "22 Mar 24" [ref=e2047]:
+                    - generic [ref=e2048]: 22 Mar 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2049]:
+                    - generic [ref=e2055]:
+                      - generic [ref=e2056]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2057]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$5.47" [ref=e2058] [cursor=pointer]:
+                    - generic [ref=e2060]: $5.47
+                  - cell "733686358235" [ref=e2061]:
+                    - list [ref=e2062]:
+                      - listitem [ref=e2063]:
+                        - link "733686358235" [ref=e2064] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=733686358235
+                - row "4478386 Store Picked Up US-0098422210-PUIS PETER SALWIN 09 Mar 24 20 Mar 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $55.80 729580386323" [ref=e2065]:
+                  - cell "4478386 Store" [ref=e2066] [cursor=pointer]:
+                    - generic [ref=e2067]:
+                      - generic [ref=e2068]: "4478386"
+                      - generic [ref=e2069]: Store
+                  - cell "Picked Up" [ref=e2070]:
+                    - generic [ref=e2074]: Picked Up
+                  - cell "US-0098422210-PUIS" [ref=e2075]:
+                    - generic [ref=e2077]: US-0098422210-PUIS
+                  - cell "PETER SALWIN" [ref=e2078]:
+                    - generic [ref=e2080]: PETER SALWIN
+                  - cell "09 Mar 24" [ref=e2081]:
+                    - generic [ref=e2082]: 09 Mar 24
+                  - cell "20 Mar 24" [ref=e2083]:
+                    - generic [ref=e2084]: 20 Mar 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2085]:
+                    - generic [ref=e2091]:
+                      - generic [ref=e2092]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2093]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$55.80" [ref=e2094] [cursor=pointer]:
+                    - generic [ref=e2096]: $55.80
+                  - cell "729580386323" [ref=e2097]:
+                    - list [ref=e2098]:
+                      - listitem [ref=e2099]:
+                        - link "729580386323" [ref=e2100] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=729580386323
+                - row "4457364 Store Picked Up US-0098184490-PUIS Andy Boas 21 Feb 24 14 Mar 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,050.00 729580250683" [ref=e2101]:
+                  - cell "4457364 Store" [ref=e2102] [cursor=pointer]:
+                    - generic [ref=e2103]:
+                      - generic [ref=e2104]: "4457364"
+                      - generic [ref=e2105]: Store
+                  - cell "Picked Up" [ref=e2106]:
+                    - generic [ref=e2110]: Picked Up
+                  - cell "US-0098184490-PUIS" [ref=e2111]:
+                    - generic [ref=e2113]: US-0098184490-PUIS
+                  - cell "Andy Boas" [ref=e2114]:
+                    - generic [ref=e2116]: Andy Boas
+                  - cell "21 Feb 24" [ref=e2117]:
+                    - generic [ref=e2118]: 21 Feb 24
+                  - cell "14 Mar 24" [ref=e2119]:
+                    - generic [ref=e2120]: 14 Mar 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2121]:
+                    - generic [ref=e2127]:
+                      - generic [ref=e2128]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2129]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,050.00" [ref=e2130] [cursor=pointer]:
+                    - generic [ref=e2132]: $1,050.00
+                  - cell "729580250683" [ref=e2133]:
+                    - list [ref=e2134]:
+                      - listitem [ref=e2135]:
+                        - link "729580250683" [ref=e2136] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=729580250683
+                - row "4471509 Store Picked Up US-0098352032-PUIS stanislav gintautas 04 Mar 24 13 Mar 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $25.16 729580343537" [ref=e2137]:
+                  - cell "4471509 Store" [ref=e2138] [cursor=pointer]:
+                    - generic [ref=e2139]:
+                      - generic [ref=e2140]: "4471509"
+                      - generic [ref=e2141]: Store
+                  - cell "Picked Up" [ref=e2142]:
+                    - generic [ref=e2146]: Picked Up
+                  - cell "US-0098352032-PUIS" [ref=e2147]:
+                    - generic [ref=e2149]: US-0098352032-PUIS
+                  - cell "stanislav gintautas" [ref=e2150]:
+                    - generic [ref=e2152]: stanislav gintautas
+                  - cell "04 Mar 24" [ref=e2153]:
+                    - generic [ref=e2154]: 04 Mar 24
+                  - cell "13 Mar 24" [ref=e2155]:
+                    - generic [ref=e2156]: 13 Mar 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2157]:
+                    - generic [ref=e2163]:
+                      - generic [ref=e2164]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2165]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$25.16" [ref=e2166] [cursor=pointer]:
+                    - generic [ref=e2168]: $25.16
+                  - cell "729580343537" [ref=e2169]:
+                    - list [ref=e2170]:
+                      - listitem [ref=e2171]:
+                        - link "729580343537" [ref=e2172] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=729580343537
+                - row "4447841 Store Picked Up US-0098084075-PUIS KATHERINE WETMUR 11 Feb 24 02 Mar 24 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,050.00 728341862011" [ref=e2173]:
+                  - cell "4447841 Store" [ref=e2174] [cursor=pointer]:
+                    - generic [ref=e2175]:
+                      - generic [ref=e2176]: "4447841"
+                      - generic [ref=e2177]: Store
+                  - cell "Picked Up" [ref=e2178]:
+                    - generic [ref=e2182]: Picked Up
+                  - cell "US-0098084075-PUIS" [ref=e2183]:
+                    - generic [ref=e2185]: US-0098084075-PUIS
+                  - cell "KATHERINE WETMUR" [ref=e2186]:
+                    - generic [ref=e2188]: KATHERINE WETMUR
+                  - cell "11 Feb 24" [ref=e2189]:
+                    - generic [ref=e2190]: 11 Feb 24
+                  - cell "02 Mar 24" [ref=e2191]:
+                    - generic [ref=e2192]: 02 Mar 24
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2193]:
+                    - generic [ref=e2199]:
+                      - generic [ref=e2200]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2201]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,050.00" [ref=e2202] [cursor=pointer]:
+                    - generic [ref=e2204]: $1,050.00
+                  - cell "728341862011" [ref=e2205]:
+                    - list [ref=e2206]:
+                      - listitem [ref=e2207]:
+                        - link "728341862011" [ref=e2208] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=728341862011
+                - row "4412184 Store Picked Up US-0097610384-PUIS ANDREW WONG 25 Dec 23 30 Dec 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $243.50 719648264900" [ref=e2209]:
+                  - cell "4412184 Store" [ref=e2210] [cursor=pointer]:
+                    - generic [ref=e2211]:
+                      - generic [ref=e2212]: "4412184"
+                      - generic [ref=e2213]: Store
+                  - cell "Picked Up" [ref=e2214]:
+                    - generic [ref=e2218]: Picked Up
+                  - cell "US-0097610384-PUIS" [ref=e2219]:
+                    - generic [ref=e2221]: US-0097610384-PUIS
+                  - cell "ANDREW WONG" [ref=e2222]:
+                    - generic [ref=e2224]: ANDREW WONG
+                  - cell "25 Dec 23" [ref=e2225]:
+                    - generic [ref=e2226]: 25 Dec 23
+                  - cell "30 Dec 23" [ref=e2227]:
+                    - generic [ref=e2228]: 30 Dec 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2229]:
+                    - generic [ref=e2235]:
+                      - generic [ref=e2236]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2237]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$243.50" [ref=e2238] [cursor=pointer]:
+                    - generic [ref=e2240]: $243.50
+                  - cell "719648264900" [ref=e2241]:
+                    - list [ref=e2242]:
+                      - listitem [ref=e2243]:
+                        - link "719648264900" [ref=e2244] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=719648264900
+                - row "4370618 Store Picked Up US-0097245464-PUIS DAVID LINDENBAUM 24 Nov 23 24 Dec 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $68.00 713044585972" [ref=e2245]:
+                  - cell "4370618 Store" [ref=e2246] [cursor=pointer]:
+                    - generic [ref=e2247]:
+                      - generic [ref=e2248]: "4370618"
+                      - generic [ref=e2249]: Store
+                  - cell "Picked Up" [ref=e2250]:
+                    - generic [ref=e2254]: Picked Up
+                  - cell "US-0097245464-PUIS" [ref=e2255]:
+                    - generic [ref=e2257]: US-0097245464-PUIS
+                  - cell "DAVID LINDENBAUM" [ref=e2258]:
+                    - generic [ref=e2260]: DAVID LINDENBAUM
+                  - cell "24 Nov 23" [ref=e2261]:
+                    - generic [ref=e2262]: 24 Nov 23
+                  - cell "24 Dec 23" [ref=e2263]:
+                    - generic [ref=e2264]: 24 Dec 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2265]:
+                    - generic [ref=e2271]:
+                      - generic [ref=e2272]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2273]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$68.00" [ref=e2274] [cursor=pointer]:
+                    - generic [ref=e2276]: $68.00
+                  - cell "713044585972" [ref=e2277]:
+                    - list [ref=e2278]:
+                      - listitem [ref=e2279]:
+                        - link "713044585972" [ref=e2280] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=713044585972
+                - row "4308046 Store Picked Up US-0096557928-PUIS Christopher Neil 27 Sep 23 06 Oct 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $11.96 706984780700" [ref=e2281]:
+                  - cell "4308046 Store" [ref=e2282] [cursor=pointer]:
+                    - generic [ref=e2283]:
+                      - generic [ref=e2284]: "4308046"
+                      - generic [ref=e2285]: Store
+                  - cell "Picked Up" [ref=e2286]:
+                    - generic [ref=e2290]: Picked Up
+                  - cell "US-0096557928-PUIS" [ref=e2291]:
+                    - generic [ref=e2293]: US-0096557928-PUIS
+                  - cell "Christopher Neil" [ref=e2294]:
+                    - generic [ref=e2296]: Christopher Neil
+                  - cell "27 Sep 23" [ref=e2297]:
+                    - generic [ref=e2298]: 27 Sep 23
+                  - cell "06 Oct 23" [ref=e2299]:
+                    - generic [ref=e2300]: 06 Oct 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2301]:
+                    - generic [ref=e2307]:
+                      - generic [ref=e2308]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2309]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$11.96" [ref=e2310] [cursor=pointer]:
+                    - generic [ref=e2312]: $11.96
+                  - cell "706984780700" [ref=e2313]:
+                    - list [ref=e2314]:
+                      - listitem [ref=e2315]:
+                        - link "706984780700" [ref=e2316] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=706984780700
+                - row "4293412 Store Picked Up US-0096449134-PUIS James Orourke 15 Sep 23 22 Sep 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $281.25 688252930119" [ref=e2317]:
+                  - cell "4293412 Store" [ref=e2318] [cursor=pointer]:
+                    - generic [ref=e2319]:
+                      - generic [ref=e2320]: "4293412"
+                      - generic [ref=e2321]: Store
+                  - cell "Picked Up" [ref=e2322]:
+                    - generic [ref=e2326]: Picked Up
+                  - cell "US-0096449134-PUIS" [ref=e2327]:
+                    - generic [ref=e2329]: US-0096449134-PUIS
+                  - cell "James Orourke" [ref=e2330]:
+                    - generic [ref=e2332]: James Orourke
+                  - cell "15 Sep 23" [ref=e2333]:
+                    - generic [ref=e2334]: 15 Sep 23
+                  - cell "22 Sep 23" [ref=e2335]:
+                    - generic [ref=e2336]: 22 Sep 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2337]:
+                    - generic [ref=e2343]:
+                      - generic [ref=e2344]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2345]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$281.25" [ref=e2346] [cursor=pointer]:
+                    - generic [ref=e2348]: $281.25
+                  - cell "688252930119" [ref=e2349]:
+                    - list [ref=e2350]:
+                      - listitem [ref=e2351]:
+                        - link "688252930119" [ref=e2352] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=688252930119
+                - row "4271867 Employee Purchase Picked Up US-0095837037-PUIS DANIEL CALARCO 30 Aug 23 09 Sep 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 688329833017 MULTI_TRK_NBRS 688252841021" [ref=e2353]:
+                  - cell "4271867 Employee Purchase" [ref=e2354] [cursor=pointer]:
+                    - generic [ref=e2355]:
+                      - generic [ref=e2356]: "4271867"
+                      - generic [ref=e2357]: Employee Purchase
+                  - cell "Picked Up" [ref=e2358]:
+                    - generic [ref=e2362]: Picked Up
+                  - cell "US-0095837037-PUIS" [ref=e2363]:
+                    - generic [ref=e2365]: US-0095837037-PUIS
+                  - cell "DANIEL CALARCO" [ref=e2366]:
+                    - generic [ref=e2368]: DANIEL CALARCO
+                  - cell "30 Aug 23" [ref=e2369]:
+                    - generic [ref=e2370]: 30 Aug 23
+                  - cell "09 Sep 23" [ref=e2371]:
+                    - generic [ref=e2372]: 09 Sep 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2373]:
+                    - generic [ref=e2379]:
+                      - generic [ref=e2380]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2381]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "688329833017 MULTI_TRK_NBRS 688252841021" [ref=e2382]:
+                    - list [ref=e2383]:
+                      - listitem [ref=e2384]:
+                        - link "688329833017" [ref=e2385] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=688329833017
+                      - listitem [ref=e2386]:
+                        - link "MULTI_TRK_NBRS" [ref=e2387] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=MULTI_TRK_NBRS
+                      - listitem [ref=e2388]:
+                        - link "688252841021" [ref=e2389] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=688252841021
+                - row "4245814 Store Picked Up US-0096138783-PUIS David Gavilan 12 Aug 23 28 Aug 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $42.25 9405536109675227518393" [ref=e2390]:
+                  - cell "4245814 Store" [ref=e2391] [cursor=pointer]:
+                    - generic [ref=e2392]:
+                      - generic [ref=e2393]: "4245814"
+                      - generic [ref=e2394]: Store
+                  - cell "Picked Up" [ref=e2395]:
+                    - generic [ref=e2399]: Picked Up
+                  - cell "US-0096138783-PUIS" [ref=e2400]:
+                    - generic [ref=e2402]: US-0096138783-PUIS
+                  - cell "David Gavilan" [ref=e2403]:
+                    - generic [ref=e2405]: David Gavilan
+                  - cell "12 Aug 23" [ref=e2406]:
+                    - generic [ref=e2407]: 12 Aug 23
+                  - cell "28 Aug 23" [ref=e2408]:
+                    - generic [ref=e2409]: 28 Aug 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2410]:
+                    - generic [ref=e2416]:
+                      - generic [ref=e2417]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2418]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$42.25" [ref=e2419] [cursor=pointer]:
+                    - generic [ref=e2421]: $42.25
+                  - cell "9405536109675227518393" [ref=e2422]:
+                    - list [ref=e2423]:
+                      - listitem [ref=e2424]:
+                        - link "9405536109675227518393" [ref=e2425] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675227518393
+                - row "4240917 Store Picked Up US-0096111462-PUIS Trey Billings 08 Aug 23 16 Aug 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $3.30 9405536109675206242684" [ref=e2426]:
+                  - cell "4240917 Store" [ref=e2427] [cursor=pointer]:
+                    - generic [ref=e2428]:
+                      - generic [ref=e2429]: "4240917"
+                      - generic [ref=e2430]: Store
+                  - cell "Picked Up" [ref=e2431]:
+                    - generic [ref=e2435]: Picked Up
+                  - cell "US-0096111462-PUIS" [ref=e2436]:
+                    - generic [ref=e2438]: US-0096111462-PUIS
+                  - cell "Trey Billings" [ref=e2439]:
+                    - generic [ref=e2441]: Trey Billings
+                  - cell "08 Aug 23" [ref=e2442]:
+                    - generic [ref=e2443]: 08 Aug 23
+                  - cell "16 Aug 23" [ref=e2444]:
+                    - generic [ref=e2445]: 16 Aug 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2446]:
+                    - generic [ref=e2452]:
+                      - generic [ref=e2453]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2454]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$3.30" [ref=e2455] [cursor=pointer]:
+                    - generic [ref=e2457]: $3.30
+                  - cell "9405536109675206242684" [ref=e2458]:
+                    - list [ref=e2459]:
+                      - listitem [ref=e2460]:
+                        - link "9405536109675206242684" [ref=e2461] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675206242684
+                - row "4198124 Store Picked Up US-0095784204-PUIS ROBERT CONSLA 12 Jul 23 26 Jul 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $3.96 9405536109675095138976" [ref=e2462]:
+                  - cell "4198124 Store" [ref=e2463] [cursor=pointer]:
+                    - generic [ref=e2464]:
+                      - generic [ref=e2465]: "4198124"
+                      - generic [ref=e2466]: Store
+                  - cell "Picked Up" [ref=e2467]:
+                    - generic [ref=e2471]: Picked Up
+                  - cell "US-0095784204-PUIS" [ref=e2472]:
+                    - generic [ref=e2474]: US-0095784204-PUIS
+                  - cell "ROBERT CONSLA" [ref=e2475]:
+                    - generic [ref=e2477]: ROBERT CONSLA
+                  - cell "12 Jul 23" [ref=e2478]:
+                    - generic [ref=e2479]: 12 Jul 23
+                  - cell "26 Jul 23" [ref=e2480]:
+                    - generic [ref=e2481]: 26 Jul 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2482]:
+                    - generic [ref=e2488]:
+                      - generic [ref=e2489]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2490]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$3.96" [ref=e2491] [cursor=pointer]:
+                    - generic [ref=e2493]: $3.96
+                  - cell "9405536109675095138976" [ref=e2494]:
+                    - list [ref=e2495]:
+                      - listitem [ref=e2496]:
+                        - link "9405536109675095138976" [ref=e2497] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675095138976
+                - row "4177471 Store Picked Up US-0095605002-PUIS GEOFFREY LABASH 29 Jun 23 10 Jul 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $78.00 657430574921" [ref=e2498]:
+                  - cell "4177471 Store" [ref=e2499] [cursor=pointer]:
+                    - generic [ref=e2500]:
+                      - generic [ref=e2501]: "4177471"
+                      - generic [ref=e2502]: Store
+                  - cell "Picked Up" [ref=e2503]:
+                    - generic [ref=e2507]: Picked Up
+                  - cell "US-0095605002-PUIS" [ref=e2508]:
+                    - generic [ref=e2510]: US-0095605002-PUIS
+                  - cell "GEOFFREY LABASH" [ref=e2511]:
+                    - generic [ref=e2513]: GEOFFREY LABASH
+                  - cell "29 Jun 23" [ref=e2514]:
+                    - generic [ref=e2515]: 29 Jun 23
+                  - cell "10 Jul 23" [ref=e2516]:
+                    - generic [ref=e2517]: 10 Jul 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2518]:
+                    - generic [ref=e2524]:
+                      - generic [ref=e2525]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2526]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$78.00" [ref=e2527] [cursor=pointer]:
+                    - generic [ref=e2529]: $78.00
+                  - cell "657430574921" [ref=e2530]:
+                    - list [ref=e2531]:
+                      - listitem [ref=e2532]:
+                        - link "657430574921" [ref=e2533] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=657430574921
+                - row "4156738 Store Picked Up US-0095441017-PUIS Molly Sullivan 17 Jun 23 24 Jun 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $9.02 9405536109675986761580" [ref=e2534]:
+                  - cell "4156738 Store" [ref=e2535] [cursor=pointer]:
+                    - generic [ref=e2536]:
+                      - generic [ref=e2537]: "4156738"
+                      - generic [ref=e2538]: Store
+                  - cell "Picked Up" [ref=e2539]:
+                    - generic [ref=e2543]: Picked Up
+                  - cell "US-0095441017-PUIS" [ref=e2544]:
+                    - generic [ref=e2546]: US-0095441017-PUIS
+                  - cell "Molly Sullivan" [ref=e2547]:
+                    - generic [ref=e2549]: Molly Sullivan
+                  - cell "17 Jun 23" [ref=e2550]:
+                    - generic [ref=e2551]: 17 Jun 23
+                  - cell "24 Jun 23" [ref=e2552]:
+                    - generic [ref=e2553]: 24 Jun 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2554]:
+                    - generic [ref=e2560]:
+                      - generic [ref=e2561]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2562]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$9.02" [ref=e2563] [cursor=pointer]:
+                    - generic [ref=e2565]: $9.02
+                  - cell "9405536109675986761580" [ref=e2566]:
+                    - list [ref=e2567]:
+                      - listitem [ref=e2568]:
+                        - link "9405536109675986761580" [ref=e2569] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675986761580
+                - row "4074014 Store Picked Up US-0094891016-PUIS LORIANA MITCHELL 27 Apr 23 24 Jun 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $14.00 9405536109675758053165" [ref=e2570]:
+                  - cell "4074014 Store" [ref=e2571] [cursor=pointer]:
+                    - generic [ref=e2572]:
+                      - generic [ref=e2573]: "4074014"
+                      - generic [ref=e2574]: Store
+                  - cell "Picked Up" [ref=e2575]:
+                    - generic [ref=e2579]: Picked Up
+                  - cell "US-0094891016-PUIS" [ref=e2580]:
+                    - generic [ref=e2582]: US-0094891016-PUIS
+                  - cell "LORIANA MITCHELL" [ref=e2583]:
+                    - generic [ref=e2585]: LORIANA MITCHELL
+                  - cell "27 Apr 23" [ref=e2586]:
+                    - generic [ref=e2587]: 27 Apr 23
+                  - cell "24 Jun 23" [ref=e2588]:
+                    - generic [ref=e2589]: 24 Jun 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2590]:
+                    - generic [ref=e2596]:
+                      - generic [ref=e2597]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2598]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$14.00" [ref=e2599] [cursor=pointer]:
+                    - generic [ref=e2601]: $14.00
+                  - cell "9405536109675758053165" [ref=e2602]:
+                    - list [ref=e2603]:
+                      - listitem [ref=e2604]:
+                        - link "9405536109675758053165" [ref=e2605] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675758053165
+                - row "4145273 Store Picked Up US-0095379354-PUIS Peter Salwin 10 Jun 23 16 Jun 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 9405537903085422327051" [ref=e2606]:
+                  - cell "4145273 Store" [ref=e2607] [cursor=pointer]:
+                    - generic [ref=e2608]:
+                      - generic [ref=e2609]: "4145273"
+                      - generic [ref=e2610]: Store
+                  - cell "Picked Up" [ref=e2611]:
+                    - generic [ref=e2615]: Picked Up
+                  - cell "US-0095379354-PUIS" [ref=e2616]:
+                    - generic [ref=e2618]: US-0095379354-PUIS
+                  - cell "Peter Salwin" [ref=e2619]:
+                    - generic [ref=e2621]: Peter Salwin
+                  - cell "10 Jun 23" [ref=e2622]:
+                    - generic [ref=e2623]: 10 Jun 23
+                  - cell "16 Jun 23" [ref=e2624]:
+                    - generic [ref=e2625]: 16 Jun 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2626]:
+                    - generic [ref=e2632]:
+                      - generic [ref=e2633]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2634]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "9405537903085422327051" [ref=e2635]:
+                    - list [ref=e2636]:
+                      - listitem [ref=e2637]:
+                        - link "9405537903085422327051" [ref=e2638] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405537903085422327051
+                - row "4089450 Store Picked Up US-0094984124-PUIS Justin Arborn 06 May 23 31 May 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $43.00 647368959760" [ref=e2639]:
+                  - cell "4089450 Store" [ref=e2640] [cursor=pointer]:
+                    - generic [ref=e2641]:
+                      - generic [ref=e2642]: "4089450"
+                      - generic [ref=e2643]: Store
+                  - cell "Picked Up" [ref=e2644]:
+                    - generic [ref=e2648]: Picked Up
+                  - cell "US-0094984124-PUIS" [ref=e2649]:
+                    - generic [ref=e2651]: US-0094984124-PUIS
+                  - cell "Justin Arborn" [ref=e2652]:
+                    - generic [ref=e2654]: Justin Arborn
+                  - cell "06 May 23" [ref=e2655]:
+                    - generic [ref=e2656]: 06 May 23
+                  - cell "31 May 23" [ref=e2657]:
+                    - generic [ref=e2658]: 31 May 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2659]:
+                    - generic [ref=e2665]:
+                      - generic [ref=e2666]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2667]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$43.00" [ref=e2668] [cursor=pointer]:
+                    - generic [ref=e2670]: $43.00
+                  - cell "647368959760" [ref=e2671]:
+                    - list [ref=e2672]:
+                      - listitem [ref=e2673]:
+                        - link "647368959760" [ref=e2674] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=647368959760
+                - row "4074637 Store Picked Up US-0094879735-PUIS Scott Meurer 27 Apr 23 03 May 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $17.28 9405536109675757946529" [ref=e2675]:
+                  - cell "4074637 Store" [ref=e2676] [cursor=pointer]:
+                    - generic [ref=e2677]:
+                      - generic [ref=e2678]: "4074637"
+                      - generic [ref=e2679]: Store
+                  - cell "Picked Up" [ref=e2680]:
+                    - generic [ref=e2684]: Picked Up
+                  - cell "US-0094879735-PUIS" [ref=e2685]:
+                    - generic [ref=e2687]: US-0094879735-PUIS
+                  - cell "Scott Meurer" [ref=e2688]:
+                    - generic [ref=e2690]: Scott Meurer
+                  - cell "27 Apr 23" [ref=e2691]:
+                    - generic [ref=e2692]: 27 Apr 23
+                  - cell "03 May 23" [ref=e2693]:
+                    - generic [ref=e2694]: 03 May 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2695]:
+                    - generic [ref=e2701]:
+                      - generic [ref=e2702]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2703]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$17.28" [ref=e2704] [cursor=pointer]:
+                    - generic [ref=e2706]: $17.28
+                  - cell "9405536109675757946529" [ref=e2707]:
+                    - list [ref=e2708]:
+                      - listitem [ref=e2709]:
+                        - link "9405536109675757946529" [ref=e2710] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675757946529
+                - row "4064299 Store Picked Up US-0094774998-PUIS Thomas Hanley 21 Apr 23 29 Apr 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $14.52 642227303138" [ref=e2711]:
+                  - cell "4064299 Store" [ref=e2712] [cursor=pointer]:
+                    - generic [ref=e2713]:
+                      - generic [ref=e2714]: "4064299"
+                      - generic [ref=e2715]: Store
+                  - cell "Picked Up" [ref=e2716]:
+                    - generic [ref=e2720]: Picked Up
+                  - cell "US-0094774998-PUIS" [ref=e2721]:
+                    - generic [ref=e2723]: US-0094774998-PUIS
+                  - cell "Thomas Hanley" [ref=e2724]:
+                    - generic [ref=e2726]: Thomas Hanley
+                  - cell "21 Apr 23" [ref=e2727]:
+                    - generic [ref=e2728]: 21 Apr 23
+                  - cell "29 Apr 23" [ref=e2729]:
+                    - generic [ref=e2730]: 29 Apr 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2731]:
+                    - generic [ref=e2737]:
+                      - generic [ref=e2738]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2739]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$14.52" [ref=e2740] [cursor=pointer]:
+                    - generic [ref=e2742]: $14.52
+                  - cell "642227303138" [ref=e2743]:
+                    - list [ref=e2744]:
+                      - listitem [ref=e2745]:
+                        - link "642227303138" [ref=e2746] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=642227303138
+                - row "4062077 Store Picked Up US-0094800150-PUIS Stephen Flynn 19 Apr 23 28 Apr 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $26.40 9405536109675724600492" [ref=e2747]:
+                  - cell "4062077 Store" [ref=e2748] [cursor=pointer]:
+                    - generic [ref=e2749]:
+                      - generic [ref=e2750]: "4062077"
+                      - generic [ref=e2751]: Store
+                  - cell "Picked Up" [ref=e2752]:
+                    - generic [ref=e2756]: Picked Up
+                  - cell "US-0094800150-PUIS" [ref=e2757]:
+                    - generic [ref=e2759]: US-0094800150-PUIS
+                  - cell "Stephen Flynn" [ref=e2760]:
+                    - generic [ref=e2762]: Stephen Flynn
+                  - cell "19 Apr 23" [ref=e2763]:
+                    - generic [ref=e2764]: 19 Apr 23
+                  - cell "28 Apr 23" [ref=e2765]:
+                    - generic [ref=e2766]: 28 Apr 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2767]:
+                    - generic [ref=e2773]:
+                      - generic [ref=e2774]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2775]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$26.40" [ref=e2776] [cursor=pointer]:
+                    - generic [ref=e2778]: $26.40
+                  - cell "9405536109675724600492" [ref=e2779]:
+                    - list [ref=e2780]:
+                      - listitem [ref=e2781]:
+                        - link "9405536109675724600492" [ref=e2782] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675724600492
+                - row "4051949 Store Picked Up US-0094698947-PUIS Kathleen Del Col 13 Apr 23 25 Apr 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $350.00 642227213695" [ref=e2783]:
+                  - cell "4051949 Store" [ref=e2784] [cursor=pointer]:
+                    - generic [ref=e2785]:
+                      - generic [ref=e2786]: "4051949"
+                      - generic [ref=e2787]: Store
+                  - cell "Picked Up" [ref=e2788]:
+                    - generic [ref=e2792]: Picked Up
+                  - cell "US-0094698947-PUIS" [ref=e2793]:
+                    - generic [ref=e2795]: US-0094698947-PUIS
+                  - cell "Kathleen Del Col" [ref=e2796]:
+                    - generic [ref=e2798]: Kathleen Del Col
+                  - cell "13 Apr 23" [ref=e2799]:
+                    - generic [ref=e2800]: 13 Apr 23
+                  - cell "25 Apr 23" [ref=e2801]:
+                    - generic [ref=e2802]: 25 Apr 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2803]:
+                    - generic [ref=e2809]:
+                      - generic [ref=e2810]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2811]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$350.00" [ref=e2812] [cursor=pointer]:
+                    - generic [ref=e2814]: $350.00
+                  - cell "642227213695" [ref=e2815]:
+                    - list [ref=e2816]:
+                      - listitem [ref=e2817]:
+                        - link "642227213695" [ref=e2818] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=642227213695
+                - row "4045206 Store Picked Up US-0094660863-PUIS Justin Arborn 09 Apr 23 21 Apr 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $98.50 642227157625" [ref=e2819]:
+                  - cell "4045206 Store" [ref=e2820] [cursor=pointer]:
+                    - generic [ref=e2821]:
+                      - generic [ref=e2822]: "4045206"
+                      - generic [ref=e2823]: Store
+                  - cell "Picked Up" [ref=e2824]:
+                    - generic [ref=e2828]: Picked Up
+                  - cell "US-0094660863-PUIS" [ref=e2829]:
+                    - generic [ref=e2831]: US-0094660863-PUIS
+                  - cell "Justin Arborn" [ref=e2832]:
+                    - generic [ref=e2834]: Justin Arborn
+                  - cell "09 Apr 23" [ref=e2835]:
+                    - generic [ref=e2836]: 09 Apr 23
+                  - cell "21 Apr 23" [ref=e2837]:
+                    - generic [ref=e2838]: 21 Apr 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2839]:
+                    - generic [ref=e2845]:
+                      - generic [ref=e2846]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2847]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$98.50" [ref=e2848] [cursor=pointer]:
+                    - generic [ref=e2850]: $98.50
+                  - cell "642227157625" [ref=e2851]:
+                    - list [ref=e2852]:
+                      - listitem [ref=e2853]:
+                        - link "642227157625" [ref=e2854] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=642227157625
+                - row "4043718 Store Picked Up US-0094647090-PUIS Jesse Harwick 08 Apr 23 21 Apr 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $55.50 642227166593" [ref=e2855]:
+                  - cell "4043718 Store" [ref=e2856] [cursor=pointer]:
+                    - generic [ref=e2857]:
+                      - generic [ref=e2858]: "4043718"
+                      - generic [ref=e2859]: Store
+                  - cell "Picked Up" [ref=e2860]:
+                    - generic [ref=e2864]: Picked Up
+                  - cell "US-0094647090-PUIS" [ref=e2865]:
+                    - generic [ref=e2867]: US-0094647090-PUIS
+                  - cell "Jesse Harwick" [ref=e2868]:
+                    - generic [ref=e2870]: Jesse Harwick
+                  - cell "08 Apr 23" [ref=e2871]:
+                    - generic [ref=e2872]: 08 Apr 23
+                  - cell "21 Apr 23" [ref=e2873]:
+                    - generic [ref=e2874]: 21 Apr 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2875]:
+                    - generic [ref=e2881]:
+                      - generic [ref=e2882]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2883]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$55.50" [ref=e2884] [cursor=pointer]:
+                    - generic [ref=e2886]: $55.50
+                  - cell "642227166593" [ref=e2887]:
+                    - list [ref=e2888]:
+                      - listitem [ref=e2889]:
+                        - link "642227166593" [ref=e2890] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=642227166593
+                - row "4040489 Store Picked Up US-0094618136-PUIS Richard Walston 05 Apr 23 14 Apr 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $5.48 9405536109675662090522" [ref=e2891]:
+                  - cell "4040489 Store" [ref=e2892] [cursor=pointer]:
+                    - generic [ref=e2893]:
+                      - generic [ref=e2894]: "4040489"
+                      - generic [ref=e2895]: Store
+                  - cell "Picked Up" [ref=e2896]:
+                    - generic [ref=e2900]: Picked Up
+                  - cell "US-0094618136-PUIS" [ref=e2901]:
+                    - generic [ref=e2903]: US-0094618136-PUIS
+                  - cell "Richard Walston" [ref=e2904]:
+                    - generic [ref=e2906]: Richard Walston
+                  - cell "05 Apr 23" [ref=e2907]:
+                    - generic [ref=e2908]: 05 Apr 23
+                  - cell "14 Apr 23" [ref=e2909]:
+                    - generic [ref=e2910]: 14 Apr 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2911]:
+                    - generic [ref=e2917]:
+                      - generic [ref=e2918]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2919]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$5.48" [ref=e2920] [cursor=pointer]:
+                    - generic [ref=e2922]: $5.48
+                  - cell "9405536109675662090522" [ref=e2923]:
+                    - list [ref=e2924]:
+                      - listitem [ref=e2925]:
+                        - link "9405536109675662090522" [ref=e2926] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675662090522
+                - row "3995428 Store Picked Up US-0094275175-PUIS DIEGO MARTINEZ 06 Mar 23 14 Apr 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $4.84 9405536109675556654298" [ref=e2927]:
+                  - cell "3995428 Store" [ref=e2928] [cursor=pointer]:
+                    - generic [ref=e2929]:
+                      - generic [ref=e2930]: "3995428"
+                      - generic [ref=e2931]: Store
+                  - cell "Picked Up" [ref=e2932]:
+                    - generic [ref=e2936]: Picked Up
+                  - cell "US-0094275175-PUIS" [ref=e2937]:
+                    - generic [ref=e2939]: US-0094275175-PUIS
+                  - cell "DIEGO MARTINEZ" [ref=e2940]:
+                    - generic [ref=e2942]: DIEGO MARTINEZ
+                  - cell "06 Mar 23" [ref=e2943]:
+                    - generic [ref=e2944]: 06 Mar 23
+                  - cell "14 Apr 23" [ref=e2945]:
+                    - generic [ref=e2946]: 14 Apr 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2947]:
+                    - generic [ref=e2953]:
+                      - generic [ref=e2954]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2955]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$4.84" [ref=e2956] [cursor=pointer]:
+                    - generic [ref=e2958]: $4.84
+                  - cell "9405536109675556654298" [ref=e2959]:
+                    - list [ref=e2960]:
+                      - listitem [ref=e2961]:
+                        - link "9405536109675556654298" [ref=e2962] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675556654298
+                - row "4003276 Store Picked Up US-0094329485-PUIS Martin Hudak 12 Mar 23 24 Mar 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $10.12 630251422104" [ref=e2963]:
+                  - cell "4003276 Store" [ref=e2964] [cursor=pointer]:
+                    - generic [ref=e2965]:
+                      - generic [ref=e2966]: "4003276"
+                      - generic [ref=e2967]: Store
+                  - cell "Picked Up" [ref=e2968]:
+                    - generic [ref=e2972]: Picked Up
+                  - cell "US-0094329485-PUIS" [ref=e2973]:
+                    - generic [ref=e2975]: US-0094329485-PUIS
+                  - cell "Martin Hudak" [ref=e2976]:
+                    - generic [ref=e2978]: Martin Hudak
+                  - cell "12 Mar 23" [ref=e2979]:
+                    - generic [ref=e2980]: 12 Mar 23
+                  - cell "24 Mar 23" [ref=e2981]:
+                    - generic [ref=e2982]: 24 Mar 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e2983]:
+                    - generic [ref=e2989]:
+                      - generic [ref=e2990]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e2991]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$10.12" [ref=e2992] [cursor=pointer]:
+                    - generic [ref=e2994]: $10.12
+                  - cell "630251422104" [ref=e2995]:
+                    - list [ref=e2996]:
+                      - listitem [ref=e2997]:
+                        - link "630251422104" [ref=e2998] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=630251422104
+                - row "3971090 Store Picked Up US-0094068057 Mark Talling 16 Feb 23 22 Feb 23 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $14.74 9405536109675460043102" [ref=e2999]:
+                  - cell "3971090 Store" [ref=e3000] [cursor=pointer]:
+                    - generic [ref=e3001]:
+                      - generic [ref=e3002]: "3971090"
+                      - generic [ref=e3003]: Store
+                  - cell "Picked Up" [ref=e3004]:
+                    - generic [ref=e3008]: Picked Up
+                  - cell "US-0094068057" [ref=e3009]:
+                    - generic [ref=e3011]: US-0094068057
+                  - cell "Mark Talling" [ref=e3012]:
+                    - generic [ref=e3014]: Mark Talling
+                  - cell "16 Feb 23" [ref=e3015]:
+                    - generic [ref=e3016]: 16 Feb 23
+                  - cell "22 Feb 23" [ref=e3017]:
+                    - generic [ref=e3018]: 22 Feb 23
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3019]:
+                    - generic [ref=e3025]:
+                      - generic [ref=e3026]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3027]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$14.74" [ref=e3028] [cursor=pointer]:
+                    - generic [ref=e3030]: $14.74
+                  - cell "9405536109675460043102" [ref=e3031]:
+                    - list [ref=e3032]:
+                      - listitem [ref=e3033]:
+                        - link "9405536109675460043102" [ref=e3034] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405536109675460043102
+                - row "3892928 Store Picked Up US-0067115439 DANIEL BAKALEINIK 04 Dec 22 24 Dec 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $120.00 617136087074" [ref=e3035]:
+                  - cell "3892928 Store" [ref=e3036] [cursor=pointer]:
+                    - generic [ref=e3037]:
+                      - generic [ref=e3038]: "3892928"
+                      - generic [ref=e3039]: Store
+                  - cell "Picked Up" [ref=e3040]:
+                    - generic [ref=e3044]: Picked Up
+                  - cell "US-0067115439" [ref=e3045]:
+                    - generic [ref=e3047]: US-0067115439
+                  - cell "DANIEL BAKALEINIK" [ref=e3048]:
+                    - generic [ref=e3050]: DANIEL BAKALEINIK
+                  - cell "04 Dec 22" [ref=e3051]:
+                    - generic [ref=e3052]: 04 Dec 22
+                  - cell "24 Dec 22" [ref=e3053]:
+                    - generic [ref=e3054]: 24 Dec 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3055]:
+                    - generic [ref=e3061]:
+                      - generic [ref=e3062]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3063]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$120.00" [ref=e3064] [cursor=pointer]:
+                    - generic [ref=e3066]: $120.00
+                  - cell "617136087074" [ref=e3067]:
+                    - list [ref=e3068]:
+                      - listitem [ref=e3069]:
+                        - link "617136087074" [ref=e3070] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=617136087074
+                - row "3662235 Store Picked Up US-0011554132 Donald Ercole 30 May 22 09 Jul 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $8.90 580650648426" [ref=e3071]:
+                  - cell "3662235 Store" [ref=e3072] [cursor=pointer]:
+                    - generic [ref=e3073]:
+                      - generic [ref=e3074]: "3662235"
+                      - generic [ref=e3075]: Store
+                  - cell "Picked Up" [ref=e3076]:
+                    - generic [ref=e3080]: Picked Up
+                  - cell "US-0011554132" [ref=e3081]:
+                    - generic [ref=e3083]: US-0011554132
+                  - cell "Donald Ercole" [ref=e3084]:
+                    - generic [ref=e3086]: Donald Ercole
+                  - cell "30 May 22" [ref=e3087]:
+                    - generic [ref=e3088]: 30 May 22
+                  - cell "09 Jul 22" [ref=e3089]:
+                    - generic [ref=e3090]: 09 Jul 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3091]:
+                    - generic [ref=e3097]:
+                      - generic [ref=e3098]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3099]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$8.90" [ref=e3100] [cursor=pointer]:
+                    - generic [ref=e3102]: $8.90
+                  - cell "580650648426" [ref=e3103]:
+                    - list [ref=e3104]:
+                      - listitem [ref=e3105]:
+                        - link "580650648426" [ref=e3106] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=580650648426
+                - row "3651308 Store Picked Up US-0008564532 Russ Mitchell 20 May 22 03 Jun 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $13.92 9405509898642950278451" [ref=e3107]:
+                  - cell "3651308 Store" [ref=e3108] [cursor=pointer]:
+                    - generic [ref=e3109]:
+                      - generic [ref=e3110]: "3651308"
+                      - generic [ref=e3111]: Store
+                  - cell "Picked Up" [ref=e3112]:
+                    - generic [ref=e3116]: Picked Up
+                  - cell "US-0008564532" [ref=e3117]:
+                    - generic [ref=e3119]: US-0008564532
+                  - cell "Russ Mitchell" [ref=e3120]:
+                    - generic [ref=e3122]: Russ Mitchell
+                  - cell "20 May 22" [ref=e3123]:
+                    - generic [ref=e3124]: 20 May 22
+                  - cell "03 Jun 22" [ref=e3125]:
+                    - generic [ref=e3126]: 03 Jun 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3127]:
+                    - generic [ref=e3133]:
+                      - generic [ref=e3134]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3135]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$13.92" [ref=e3136] [cursor=pointer]:
+                    - generic [ref=e3138]: $13.92
+                  - cell "9405509898642950278451" [ref=e3139]:
+                    - list [ref=e3140]:
+                      - listitem [ref=e3141]:
+                        - link "9405509898642950278451" [ref=e3142] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642950278451
+                - row "3646516 Store Picked Up US-0008235150 STEVEN LORANGER 16 May 22 25 May 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $122.50 580650568631" [ref=e3143]:
+                  - cell "3646516 Store" [ref=e3144] [cursor=pointer]:
+                    - generic [ref=e3145]:
+                      - generic [ref=e3146]: "3646516"
+                      - generic [ref=e3147]: Store
+                  - cell "Picked Up" [ref=e3148]:
+                    - generic [ref=e3152]: Picked Up
+                  - cell "US-0008235150" [ref=e3153]:
+                    - generic [ref=e3155]: US-0008235150
+                  - cell "STEVEN LORANGER" [ref=e3156]:
+                    - generic [ref=e3158]: STEVEN LORANGER
+                  - cell "16 May 22" [ref=e3159]:
+                    - generic [ref=e3160]: 16 May 22
+                  - cell "25 May 22" [ref=e3161]:
+                    - generic [ref=e3162]: 25 May 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3163]:
+                    - generic [ref=e3169]:
+                      - generic [ref=e3170]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3171]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$122.50" [ref=e3172] [cursor=pointer]:
+                    - generic [ref=e3174]: $122.50
+                  - cell "580650568631" [ref=e3175]:
+                    - list [ref=e3176]:
+                      - listitem [ref=e3177]:
+                        - link "580650568631" [ref=e3178] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=580650568631
+                - row "3637726 Store Picked Up US-0008112265 DANIEL GUETTA 09 May 22 25 May 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $775.00 580650532777 579102760534" [ref=e3179]:
+                  - cell "3637726 Store" [ref=e3180] [cursor=pointer]:
+                    - generic [ref=e3181]:
+                      - generic [ref=e3182]: "3637726"
+                      - generic [ref=e3183]: Store
+                  - cell "Picked Up" [ref=e3184]:
+                    - generic [ref=e3188]: Picked Up
+                  - cell "US-0008112265" [ref=e3189]:
+                    - generic [ref=e3191]: US-0008112265
+                  - cell "DANIEL GUETTA" [ref=e3192]:
+                    - generic [ref=e3194]: DANIEL GUETTA
+                  - cell "09 May 22" [ref=e3195]:
+                    - generic [ref=e3196]: 09 May 22
+                  - cell "25 May 22" [ref=e3197]:
+                    - generic [ref=e3198]: 25 May 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3199]:
+                    - generic [ref=e3205]:
+                      - generic [ref=e3206]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3207]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$775.00" [ref=e3208] [cursor=pointer]:
+                    - generic [ref=e3210]: $775.00
+                  - cell "580650532777 579102760534" [ref=e3211]:
+                    - list [ref=e3212]:
+                      - listitem [ref=e3213]:
+                        - link "580650532777" [ref=e3214] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=580650532777
+                      - listitem [ref=e3215]:
+                        - link "579102760534" [ref=e3216] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=579102760534
+                - row "3588659 Store Picked Up US-0007821678 Nora Kim Leman 26 Mar 22 16 Apr 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $525.00 568454235711" [ref=e3217]:
+                  - cell "3588659 Store" [ref=e3218] [cursor=pointer]:
+                    - generic [ref=e3219]:
+                      - generic [ref=e3220]: "3588659"
+                      - generic [ref=e3221]: Store
+                  - cell "Picked Up" [ref=e3222]:
+                    - generic [ref=e3226]: Picked Up
+                  - cell "US-0007821678" [ref=e3227]:
+                    - generic [ref=e3229]: US-0007821678
+                  - cell "Nora Kim Leman" [ref=e3230]:
+                    - generic [ref=e3232]: Nora Kim Leman
+                  - cell "26 Mar 22" [ref=e3233]:
+                    - generic [ref=e3234]: 26 Mar 22
+                  - cell "16 Apr 22" [ref=e3235]:
+                    - generic [ref=e3236]: 16 Apr 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3237]:
+                    - generic [ref=e3243]:
+                      - generic [ref=e3244]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3245]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$525.00" [ref=e3246] [cursor=pointer]:
+                    - generic [ref=e3248]: $525.00
+                  - cell "568454235711" [ref=e3249]:
+                    - list [ref=e3250]:
+                      - listitem [ref=e3251]:
+                        - link "568454235711" [ref=e3252] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=568454235711
+                - row "3585125 Store Picked Up US-0007799524 Jody Sommers 23 Mar 22 06 Apr 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $122.50 564817478570" [ref=e3253]:
+                  - cell "3585125 Store" [ref=e3254] [cursor=pointer]:
+                    - generic [ref=e3255]:
+                      - generic [ref=e3256]: "3585125"
+                      - generic [ref=e3257]: Store
+                  - cell "Picked Up" [ref=e3258]:
+                    - generic [ref=e3262]: Picked Up
+                  - cell "US-0007799524" [ref=e3263]:
+                    - generic [ref=e3265]: US-0007799524
+                  - cell "Jody Sommers" [ref=e3266]:
+                    - generic [ref=e3268]: Jody Sommers
+                  - cell "23 Mar 22" [ref=e3269]:
+                    - generic [ref=e3270]: 23 Mar 22
+                  - cell "06 Apr 22" [ref=e3271]:
+                    - generic [ref=e3272]: 06 Apr 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3273]:
+                    - generic [ref=e3279]:
+                      - generic [ref=e3280]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3281]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$122.50" [ref=e3282] [cursor=pointer]:
+                    - generic [ref=e3284]: $122.50
+                  - cell "564817478570" [ref=e3285]:
+                    - list [ref=e3286]:
+                      - listitem [ref=e3287]:
+                        - link "564817478570" [ref=e3288] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=564817478570
+                - row "3572093 Store Picked Up US-0007727951 BRENO SANTOS 11 Mar 22 26 Mar 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $2.30 9405509898642184895936" [ref=e3289]:
+                  - cell "3572093 Store" [ref=e3290] [cursor=pointer]:
+                    - generic [ref=e3291]:
+                      - generic [ref=e3292]: "3572093"
+                      - generic [ref=e3293]: Store
+                  - cell "Picked Up" [ref=e3294]:
+                    - generic [ref=e3298]: Picked Up
+                  - cell "US-0007727951" [ref=e3299]:
+                    - generic [ref=e3301]: US-0007727951
+                  - cell "BRENO SANTOS" [ref=e3302]:
+                    - generic [ref=e3304]: BRENO SANTOS
+                  - cell "11 Mar 22" [ref=e3305]:
+                    - generic [ref=e3306]: 11 Mar 22
+                  - cell "26 Mar 22" [ref=e3307]:
+                    - generic [ref=e3308]: 26 Mar 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3309]:
+                    - generic [ref=e3315]:
+                      - generic [ref=e3316]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3317]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$2.30" [ref=e3318] [cursor=pointer]:
+                    - generic [ref=e3320]: $2.30
+                  - cell "9405509898642184895936" [ref=e3321]:
+                    - list [ref=e3322]:
+                      - listitem [ref=e3323]:
+                        - link "9405509898642184895936" [ref=e3324] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642184895936
+                - row "3571785 Store Picked Up US-0007730721 Emily Wei 11 Mar 22 26 Mar 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $10.12 9405509898642898362960" [ref=e3325]:
+                  - cell "3571785 Store" [ref=e3326] [cursor=pointer]:
+                    - generic [ref=e3327]:
+                      - generic [ref=e3328]: "3571785"
+                      - generic [ref=e3329]: Store
+                  - cell "Picked Up" [ref=e3330]:
+                    - generic [ref=e3334]: Picked Up
+                  - cell "US-0007730721" [ref=e3335]:
+                    - generic [ref=e3337]: US-0007730721
+                  - cell "Emily Wei" [ref=e3338]:
+                    - generic [ref=e3340]: Emily Wei
+                  - cell "11 Mar 22" [ref=e3341]:
+                    - generic [ref=e3342]: 11 Mar 22
+                  - cell "26 Mar 22" [ref=e3343]:
+                    - generic [ref=e3344]: 26 Mar 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3345]:
+                    - generic [ref=e3351]:
+                      - generic [ref=e3352]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3353]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$10.12" [ref=e3354] [cursor=pointer]:
+                    - generic [ref=e3356]: $10.12
+                  - cell "9405509898642898362960" [ref=e3357]:
+                    - list [ref=e3358]:
+                      - listitem [ref=e3359]:
+                        - link "9405509898642898362960" [ref=e3360] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642898362960
+                - row "3533521 Store Picked Up US-0007398146 Theresa Brasco 25 Jan 22 05 Feb 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $2,100.00 558499327077" [ref=e3361]:
+                  - cell "3533521 Store" [ref=e3362] [cursor=pointer]:
+                    - generic [ref=e3363]:
+                      - generic [ref=e3364]: "3533521"
+                      - generic [ref=e3365]: Store
+                  - cell "Picked Up" [ref=e3366]:
+                    - generic [ref=e3370]: Picked Up
+                  - cell "US-0007398146" [ref=e3371]:
+                    - generic [ref=e3373]: US-0007398146
+                  - cell "Theresa Brasco" [ref=e3374]:
+                    - generic [ref=e3376]: Theresa Brasco
+                  - cell "25 Jan 22" [ref=e3377]:
+                    - generic [ref=e3378]: 25 Jan 22
+                  - cell "05 Feb 22" [ref=e3379]:
+                    - generic [ref=e3380]: 05 Feb 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3381]:
+                    - generic [ref=e3387]:
+                      - generic [ref=e3388]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3389]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$2,100.00" [ref=e3390] [cursor=pointer]:
+                    - generic [ref=e3392]: $2,100.00
+                  - cell "558499327077" [ref=e3393]:
+                    - list [ref=e3394]:
+                      - listitem [ref=e3395]:
+                        - link "558499327077" [ref=e3396] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=558499327077
+                - row "3525447 Store Picked Up US-0007356165 Todd Zeigher 13 Jan 22 24 Jan 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $4.36 9405509898642857282759" [ref=e3397]:
+                  - cell "3525447 Store" [ref=e3398] [cursor=pointer]:
+                    - generic [ref=e3399]:
+                      - generic [ref=e3400]: "3525447"
+                      - generic [ref=e3401]: Store
+                  - cell "Picked Up" [ref=e3402]:
+                    - generic [ref=e3406]: Picked Up
+                  - cell "US-0007356165" [ref=e3407]:
+                    - generic [ref=e3409]: US-0007356165
+                  - cell "Todd Zeigher" [ref=e3410]:
+                    - generic [ref=e3412]: Todd Zeigher
+                  - cell "13 Jan 22" [ref=e3413]:
+                    - generic [ref=e3414]: 13 Jan 22
+                  - cell "24 Jan 22" [ref=e3415]:
+                    - generic [ref=e3416]: 24 Jan 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3417]:
+                    - generic [ref=e3423]:
+                      - generic [ref=e3424]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3425]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$4.36" [ref=e3426] [cursor=pointer]:
+                    - generic [ref=e3428]: $4.36
+                  - cell "9405509898642857282759" [ref=e3429]:
+                    - list [ref=e3430]:
+                      - listitem [ref=e3431]:
+                        - link "9405509898642857282759" [ref=e3432] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642857282759
+                - row "3506627 Store Picked Up US-0007214338 Benjamin Sarly 16 Dec 21 20 Jan 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,125.00 549908718593" [ref=e3433]:
+                  - cell "3506627 Store" [ref=e3434] [cursor=pointer]:
+                    - generic [ref=e3435]:
+                      - generic [ref=e3436]: "3506627"
+                      - generic [ref=e3437]: Store
+                  - cell "Picked Up" [ref=e3438]:
+                    - generic [ref=e3442]: Picked Up
+                  - cell "US-0007214338" [ref=e3443]:
+                    - generic [ref=e3445]: US-0007214338
+                  - cell "Benjamin Sarly" [ref=e3446]:
+                    - generic [ref=e3448]: Benjamin Sarly
+                  - cell "16 Dec 21" [ref=e3449]:
+                    - generic [ref=e3450]: 16 Dec 21
+                  - cell "20 Jan 22" [ref=e3451]:
+                    - generic [ref=e3452]: 20 Jan 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3453]:
+                    - generic [ref=e3459]:
+                      - generic [ref=e3460]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3461]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,125.00" [ref=e3462] [cursor=pointer]:
+                    - generic [ref=e3464]: $1,125.00
+                  - cell "549908718593" [ref=e3465]:
+                    - list [ref=e3466]:
+                      - listitem [ref=e3467]:
+                        - link "549908718593" [ref=e3468] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=549908718593
+                - row "3520116 Store Picked Up US-0007325106 Matthew Baldwin 06 Jan 22 14 Jan 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $367.50 558499237156" [ref=e3469]:
+                  - cell "3520116 Store" [ref=e3470] [cursor=pointer]:
+                    - generic [ref=e3471]:
+                      - generic [ref=e3472]: "3520116"
+                      - generic [ref=e3473]: Store
+                  - cell "Picked Up" [ref=e3474]:
+                    - generic [ref=e3478]: Picked Up
+                  - cell "US-0007325106" [ref=e3479]:
+                    - generic [ref=e3481]: US-0007325106
+                  - cell "Matthew Baldwin" [ref=e3482]:
+                    - generic [ref=e3484]: Matthew Baldwin
+                  - cell "06 Jan 22" [ref=e3485]:
+                    - generic [ref=e3486]: 06 Jan 22
+                  - cell "14 Jan 22" [ref=e3487]:
+                    - generic [ref=e3488]: 14 Jan 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3489]:
+                    - generic [ref=e3495]:
+                      - generic [ref=e3496]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3497]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$367.50" [ref=e3498] [cursor=pointer]:
+                    - generic [ref=e3500]: $367.50
+                  - cell "558499237156" [ref=e3501]:
+                    - list [ref=e3502]:
+                      - listitem [ref=e3503]:
+                        - link "558499237156" [ref=e3504] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=558499237156
+                - row "3483635 Store Picked Up US-0007088237 Jeremy Blum 27 Nov 21 12 Jan 22 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 486038572047" [ref=e3505]:
+                  - cell "3483635 Store" [ref=e3506] [cursor=pointer]:
+                    - generic [ref=e3507]:
+                      - generic [ref=e3508]: "3483635"
+                      - generic [ref=e3509]: Store
+                  - cell "Picked Up" [ref=e3510]:
+                    - generic [ref=e3514]: Picked Up
+                  - cell "US-0007088237" [ref=e3515]:
+                    - generic [ref=e3517]: US-0007088237
+                  - cell "Jeremy Blum" [ref=e3518]:
+                    - generic [ref=e3520]: Jeremy Blum
+                  - cell "27 Nov 21" [ref=e3521]:
+                    - generic [ref=e3522]: 27 Nov 21
+                  - cell "12 Jan 22" [ref=e3523]:
+                    - generic [ref=e3524]: 12 Jan 22
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3525]:
+                    - generic [ref=e3531]:
+                      - generic [ref=e3532]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3533]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "486038572047" [ref=e3534]:
+                    - list [ref=e3535]:
+                      - listitem [ref=e3536]:
+                        - link "486038572047" [ref=e3537] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=486038572047
+                - row "3422554 Store Picked Up US-0006712659 Maria Vazquez 18 Sep 21 15 Nov 21 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $18.91 9405509898642768920559" [ref=e3538]:
+                  - cell "3422554 Store" [ref=e3539] [cursor=pointer]:
+                    - generic [ref=e3540]:
+                      - generic [ref=e3541]: "3422554"
+                      - generic [ref=e3542]: Store
+                  - cell "Picked Up" [ref=e3543]:
+                    - generic [ref=e3547]: Picked Up
+                  - cell "US-0006712659" [ref=e3548]:
+                    - generic [ref=e3550]: US-0006712659
+                  - cell "Maria Vazquez" [ref=e3551]:
+                    - generic [ref=e3553]: Maria Vazquez
+                  - cell "18 Sep 21" [ref=e3554]:
+                    - generic [ref=e3555]: 18 Sep 21
+                  - cell "15 Nov 21" [ref=e3556]:
+                    - generic [ref=e3557]: 15 Nov 21
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3558]:
+                    - generic [ref=e3564]:
+                      - generic [ref=e3565]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3566]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$18.91" [ref=e3567] [cursor=pointer]:
+                    - generic [ref=e3569]: $18.91
+                  - cell "9405509898642768920559" [ref=e3570]:
+                    - list [ref=e3571]:
+                      - listitem [ref=e3572]:
+                        - link "9405509898642768920559" [ref=e3573] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642768920559
+                - row "3450659 Store Picked Up US-0006869994 Gioel Molinari 20 Oct 21 01 Nov 21 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $2,632.50 536338838344" [ref=e3574]:
+                  - cell "3450659 Store" [ref=e3575] [cursor=pointer]:
+                    - generic [ref=e3576]:
+                      - generic [ref=e3577]: "3450659"
+                      - generic [ref=e3578]: Store
+                  - cell "Picked Up" [ref=e3579]:
+                    - generic [ref=e3583]: Picked Up
+                  - cell "US-0006869994" [ref=e3584]:
+                    - generic [ref=e3586]: US-0006869994
+                  - cell "Gioel Molinari" [ref=e3587]:
+                    - generic [ref=e3589]: Gioel Molinari
+                  - cell "20 Oct 21" [ref=e3590]:
+                    - generic [ref=e3591]: 20 Oct 21
+                  - cell "01 Nov 21" [ref=e3592]:
+                    - generic [ref=e3593]: 01 Nov 21
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3594]:
+                    - generic [ref=e3600]:
+                      - generic [ref=e3601]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3602]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$2,632.50" [ref=e3603] [cursor=pointer]:
+                    - generic [ref=e3605]: $2,632.50
+                  - cell "536338838344" [ref=e3606]:
+                    - list [ref=e3607]:
+                      - listitem [ref=e3608]:
+                        - link "536338838344" [ref=e3609] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=536338838344
+                - row "3404249 Store Picked Up US-0006622502 Russ Mitchell 29 Aug 21 17 Sep 21 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,125.00 532494464440" [ref=e3610]:
+                  - cell "3404249 Store" [ref=e3611] [cursor=pointer]:
+                    - generic [ref=e3612]:
+                      - generic [ref=e3613]: "3404249"
+                      - generic [ref=e3614]: Store
+                  - cell "Picked Up" [ref=e3615]:
+                    - generic [ref=e3619]: Picked Up
+                  - cell "US-0006622502" [ref=e3620]:
+                    - generic [ref=e3622]: US-0006622502
+                  - cell "Russ Mitchell" [ref=e3623]:
+                    - generic [ref=e3625]: Russ Mitchell
+                  - cell "29 Aug 21" [ref=e3626]:
+                    - generic [ref=e3627]: 29 Aug 21
+                  - cell "17 Sep 21" [ref=e3628]:
+                    - generic [ref=e3629]: 17 Sep 21
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3630]:
+                    - generic [ref=e3636]:
+                      - generic [ref=e3637]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3638]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,125.00" [ref=e3639] [cursor=pointer]:
+                    - generic [ref=e3641]: $1,125.00
+                  - cell "532494464440" [ref=e3642]:
+                    - list [ref=e3643]:
+                      - listitem [ref=e3644]:
+                        - link "532494464440" [ref=e3645] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=532494464440
+                - row "3249616 Store Picked Up US-0005565443 Daria Shurba 11 Mar 21 30 Mar 21 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $18.65 9405509898642652315041" [ref=e3646]:
+                  - cell "3249616 Store" [ref=e3647] [cursor=pointer]:
+                    - generic [ref=e3648]:
+                      - generic [ref=e3649]: "3249616"
+                      - generic [ref=e3650]: Store
+                  - cell "Picked Up" [ref=e3651]:
+                    - generic [ref=e3655]: Picked Up
+                  - cell "US-0005565443" [ref=e3656]:
+                    - generic [ref=e3658]: US-0005565443
+                  - cell "Daria Shurba" [ref=e3659]:
+                    - generic [ref=e3661]: Daria Shurba
+                  - cell "11 Mar 21" [ref=e3662]:
+                    - generic [ref=e3663]: 11 Mar 21
+                  - cell "30 Mar 21" [ref=e3664]:
+                    - generic [ref=e3665]: 30 Mar 21
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3666]:
+                    - generic [ref=e3672]:
+                      - generic [ref=e3673]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3674]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$18.65" [ref=e3675] [cursor=pointer]:
+                    - generic [ref=e3677]: $18.65
+                  - cell "9405509898642652315041" [ref=e3678]:
+                    - list [ref=e3679]:
+                      - listitem [ref=e3680]:
+                        - link "9405509898642652315041" [ref=e3681] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642652315041
+                - row "3210811 Store Picked Up US-05246557 Martina Kaeslin 09 Jan 21 15 Jan 21 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $930.00 938901393976" [ref=e3682]:
+                  - cell "3210811 Store" [ref=e3683] [cursor=pointer]:
+                    - generic [ref=e3684]:
+                      - generic [ref=e3685]: "3210811"
+                      - generic [ref=e3686]: Store
+                  - cell "Picked Up" [ref=e3687]:
+                    - generic [ref=e3691]: Picked Up
+                  - cell "US-05246557" [ref=e3692]:
+                    - generic [ref=e3694]: US-05246557
+                  - cell "Martina Kaeslin" [ref=e3695]:
+                    - generic [ref=e3697]: Martina Kaeslin
+                  - cell "09 Jan 21" [ref=e3698]:
+                    - generic [ref=e3699]: 09 Jan 21
+                  - cell "15 Jan 21" [ref=e3700]:
+                    - generic [ref=e3701]: 15 Jan 21
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3702]:
+                    - generic [ref=e3708]:
+                      - generic [ref=e3709]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3710]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$930.00" [ref=e3711] [cursor=pointer]:
+                    - generic [ref=e3713]: $930.00
+                  - cell "938901393976" [ref=e3714]:
+                    - list [ref=e3715]:
+                      - listitem [ref=e3716]:
+                        - link "938901393976" [ref=e3717] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=938901393976
+                - row "3199384 Store Picked Up US-05153711 Dieter Kaeslin 23 Dec 20 12 Jan 21 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $930.00 938899077577" [ref=e3718]:
+                  - cell "3199384 Store" [ref=e3719] [cursor=pointer]:
+                    - generic [ref=e3720]:
+                      - generic [ref=e3721]: "3199384"
+                      - generic [ref=e3722]: Store
+                  - cell "Picked Up" [ref=e3723]:
+                    - generic [ref=e3727]: Picked Up
+                  - cell "US-05153711" [ref=e3728]:
+                    - generic [ref=e3730]: US-05153711
+                  - cell "Dieter Kaeslin" [ref=e3731]:
+                    - generic [ref=e3733]: Dieter Kaeslin
+                  - cell "23 Dec 20" [ref=e3734]:
+                    - generic [ref=e3735]: 23 Dec 20
+                  - cell "12 Jan 21" [ref=e3736]:
+                    - generic [ref=e3737]: 12 Jan 21
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3738]:
+                    - generic [ref=e3744]:
+                      - generic [ref=e3745]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3746]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$930.00" [ref=e3747] [cursor=pointer]:
+                    - generic [ref=e3749]: $930.00
+                  - cell "938899077577" [ref=e3750]:
+                    - list [ref=e3751]:
+                      - listitem [ref=e3752]:
+                        - link "938899077577" [ref=e3753] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=938899077577
+                - row "3069821 Store Picked Up US-03996766 Oliver Olanoff 24 Jul 20 14 Aug 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $147.00 903302633850" [ref=e3754]:
+                  - cell "3069821 Store" [ref=e3755] [cursor=pointer]:
+                    - generic [ref=e3756]:
+                      - generic [ref=e3757]: "3069821"
+                      - generic [ref=e3758]: Store
+                  - cell "Picked Up" [ref=e3759]:
+                    - generic [ref=e3763]: Picked Up
+                  - cell "US-03996766" [ref=e3764]:
+                    - generic [ref=e3766]: US-03996766
+                  - cell "Oliver Olanoff" [ref=e3767]:
+                    - generic [ref=e3769]: Oliver Olanoff
+                  - cell "24 Jul 20" [ref=e3770]:
+                    - generic [ref=e3771]: 24 Jul 20
+                  - cell "14 Aug 20" [ref=e3772]:
+                    - generic [ref=e3773]: 14 Aug 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3774]:
+                    - generic [ref=e3780]:
+                      - generic [ref=e3781]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3782]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$147.00" [ref=e3783] [cursor=pointer]:
+                    - generic [ref=e3785]: $147.00
+                  - cell "903302633850" [ref=e3786]:
+                    - list [ref=e3787]:
+                      - listitem [ref=e3788]:
+                        - link "903302633850" [ref=e3789] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=903302633850
+                - row "3058161 Store Picked Up US-03905925 aryan shayegani 14 Jul 20 25 Jul 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $48.37 9405509202022503514608" [ref=e3790]:
+                  - cell "3058161 Store" [ref=e3791] [cursor=pointer]:
+                    - generic [ref=e3792]:
+                      - generic [ref=e3793]: "3058161"
+                      - generic [ref=e3794]: Store
+                  - cell "Picked Up" [ref=e3795]:
+                    - generic [ref=e3799]: Picked Up
+                  - cell "US-03905925" [ref=e3800]:
+                    - generic [ref=e3802]: US-03905925
+                  - cell "aryan shayegani" [ref=e3803]:
+                    - generic [ref=e3805]: aryan shayegani
+                  - cell "14 Jul 20" [ref=e3806]:
+                    - generic [ref=e3807]: 14 Jul 20
+                  - cell "25 Jul 20" [ref=e3808]:
+                    - generic [ref=e3809]: 25 Jul 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3810]:
+                    - generic [ref=e3816]:
+                      - generic [ref=e3817]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3818]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$48.37" [ref=e3819] [cursor=pointer]:
+                    - generic [ref=e3821]: $48.37
+                  - cell "9405509202022503514608" [ref=e3822]:
+                    - list [ref=e3823]:
+                      - listitem [ref=e3824]:
+                        - link "9405509202022503514608" [ref=e3825] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509202022503514608
+                - row "3015819 Store Picked Up US-03513460 Joe Weaver 09 Jun 20 02 Jul 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $58.50 181782395276" [ref=e3826]:
+                  - cell "3015819 Store" [ref=e3827] [cursor=pointer]:
+                    - generic [ref=e3828]:
+                      - generic [ref=e3829]: "3015819"
+                      - generic [ref=e3830]: Store
+                  - cell "Picked Up" [ref=e3831]:
+                    - generic [ref=e3835]: Picked Up
+                  - cell "US-03513460" [ref=e3836]:
+                    - generic [ref=e3838]: US-03513460
+                  - cell "Joe Weaver" [ref=e3839]:
+                    - generic [ref=e3841]: Joe Weaver
+                  - cell "09 Jun 20" [ref=e3842]:
+                    - generic [ref=e3843]: 09 Jun 20
+                  - cell "02 Jul 20" [ref=e3844]:
+                    - generic [ref=e3845]: 02 Jul 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3846]:
+                    - generic [ref=e3852]:
+                      - generic [ref=e3853]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3854]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$58.50" [ref=e3855] [cursor=pointer]:
+                    - generic [ref=e3857]: $58.50
+                  - cell "181782395276" [ref=e3858]:
+                    - list [ref=e3859]:
+                      - listitem [ref=e3860]:
+                        - link "181782395276" [ref=e3861] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=181782395276
+                - row "3028355 Store Picked Up US-03614059 Ali Hemdan 19 Jun 20 02 Jul 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $157.29 191829432840" [ref=e3862]:
+                  - cell "3028355 Store" [ref=e3863] [cursor=pointer]:
+                    - generic [ref=e3864]:
+                      - generic [ref=e3865]: "3028355"
+                      - generic [ref=e3866]: Store
+                  - cell "Picked Up" [ref=e3867]:
+                    - generic [ref=e3871]: Picked Up
+                  - cell "US-03614059" [ref=e3872]:
+                    - generic [ref=e3874]: US-03614059
+                  - cell "Ali Hemdan" [ref=e3875]:
+                    - generic [ref=e3877]: Ali Hemdan
+                  - cell "19 Jun 20" [ref=e3878]:
+                    - generic [ref=e3879]: 19 Jun 20
+                  - cell "02 Jul 20" [ref=e3880]:
+                    - generic [ref=e3881]: 02 Jul 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3882]:
+                    - generic [ref=e3888]:
+                      - generic [ref=e3889]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3890]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$157.29" [ref=e3891] [cursor=pointer]:
+                    - generic [ref=e3893]: $157.29
+                  - cell "191829432840" [ref=e3894]:
+                    - list [ref=e3895]:
+                      - listitem [ref=e3896]:
+                        - link "191829432840" [ref=e3897] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=191829432840
+                - row "2990181 Store Picked Up US-03281408 Jayson Stambovsky 20 May 20 14 Jun 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $70.26 181742515524" [ref=e3898]:
+                  - cell "2990181 Store" [ref=e3899] [cursor=pointer]:
+                    - generic [ref=e3900]:
+                      - generic [ref=e3901]: "2990181"
+                      - generic [ref=e3902]: Store
+                  - cell "Picked Up" [ref=e3903]:
+                    - generic [ref=e3907]: Picked Up
+                  - cell "US-03281408" [ref=e3908]:
+                    - generic [ref=e3910]: US-03281408
+                  - cell "Jayson Stambovsky" [ref=e3911]:
+                    - generic [ref=e3913]: Jayson Stambovsky
+                  - cell "20 May 20" [ref=e3914]:
+                    - generic [ref=e3915]: 20 May 20
+                  - cell "14 Jun 20" [ref=e3916]:
+                    - generic [ref=e3917]: 14 Jun 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3918]:
+                    - generic [ref=e3924]:
+                      - generic [ref=e3925]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3926]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$70.26" [ref=e3927] [cursor=pointer]:
+                    - generic [ref=e3929]: $70.26
+                  - cell "181742515524" [ref=e3930]:
+                    - list [ref=e3931]:
+                      - listitem [ref=e3932]:
+                        - link "181742515524" [ref=e3933] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=181742515524
+                - row "2988880 Store Picked Up US-03265012 TEresa Fellows 19 May 20 14 Jun 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $603.00 181782250885" [ref=e3934]:
+                  - cell "2988880 Store" [ref=e3935] [cursor=pointer]:
+                    - generic [ref=e3936]:
+                      - generic [ref=e3937]: "2988880"
+                      - generic [ref=e3938]: Store
+                  - cell "Picked Up" [ref=e3939]:
+                    - generic [ref=e3943]: Picked Up
+                  - cell "US-03265012" [ref=e3944]:
+                    - generic [ref=e3946]: US-03265012
+                  - cell "TEresa Fellows" [ref=e3947]:
+                    - generic [ref=e3949]: TEresa Fellows
+                  - cell "19 May 20" [ref=e3950]:
+                    - generic [ref=e3951]: 19 May 20
+                  - cell "14 Jun 20" [ref=e3952]:
+                    - generic [ref=e3953]: 14 Jun 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3954]:
+                    - generic [ref=e3960]:
+                      - generic [ref=e3961]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3962]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$603.00" [ref=e3963] [cursor=pointer]:
+                    - generic [ref=e3965]: $603.00
+                  - cell "181782250885" [ref=e3966]:
+                    - list [ref=e3967]:
+                      - listitem [ref=e3968]:
+                        - link "181782250885" [ref=e3969] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=181782250885
+                - row "2979007 Store Picked Up US-03179174 Matthew Landau 13 May 20 11 Jun 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $611.27 181742504240" [ref=e3970]:
+                  - cell "2979007 Store" [ref=e3971] [cursor=pointer]:
+                    - generic [ref=e3972]:
+                      - generic [ref=e3973]: "2979007"
+                      - generic [ref=e3974]: Store
+                  - cell "Picked Up" [ref=e3975]:
+                    - generic [ref=e3979]: Picked Up
+                  - cell "US-03179174" [ref=e3980]:
+                    - generic [ref=e3982]: US-03179174
+                  - cell "Matthew Landau" [ref=e3983]:
+                    - generic [ref=e3985]: Matthew Landau
+                  - cell "13 May 20" [ref=e3986]:
+                    - generic [ref=e3987]: 13 May 20
+                  - cell "11 Jun 20" [ref=e3988]:
+                    - generic [ref=e3989]: 11 Jun 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e3990]:
+                    - generic [ref=e3996]:
+                      - generic [ref=e3997]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e3998]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$611.27" [ref=e3999] [cursor=pointer]:
+                    - generic [ref=e4001]: $611.27
+                  - cell "181742504240" [ref=e4002]:
+                    - list [ref=e4003]:
+                      - listitem [ref=e4004]:
+                        - link "181742504240" [ref=e4005] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=181742504240
+                - row "2965302 Store Picked Up US-03079868 Karen Schur 06 May 20 01 Jun 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $64.38 172013986182" [ref=e4006]:
+                  - cell "2965302 Store" [ref=e4007] [cursor=pointer]:
+                    - generic [ref=e4008]:
+                      - generic [ref=e4009]: "2965302"
+                      - generic [ref=e4010]: Store
+                  - cell "Picked Up" [ref=e4011]:
+                    - generic [ref=e4015]: Picked Up
+                  - cell "US-03079868" [ref=e4016]:
+                    - generic [ref=e4018]: US-03079868
+                  - cell "Karen Schur" [ref=e4019]:
+                    - generic [ref=e4021]: Karen Schur
+                  - cell "06 May 20" [ref=e4022]:
+                    - generic [ref=e4023]: 06 May 20
+                  - cell "01 Jun 20" [ref=e4024]:
+                    - generic [ref=e4025]: 01 Jun 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4026]:
+                    - generic [ref=e4032]:
+                      - generic [ref=e4033]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4034]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$64.38" [ref=e4035] [cursor=pointer]:
+                    - generic [ref=e4037]: $64.38
+                  - cell "172013986182" [ref=e4038]:
+                    - list [ref=e4039]:
+                      - listitem [ref=e4040]:
+                        - link "172013986182" [ref=e4041] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013986182
+                - row "2980656 Store Picked Up US-03186465 Hy Saporta 14 May 20 01 Jun 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $313.50 181782224330" [ref=e4042]:
+                  - cell "2980656 Store" [ref=e4043] [cursor=pointer]:
+                    - generic [ref=e4044]:
+                      - generic [ref=e4045]: "2980656"
+                      - generic [ref=e4046]: Store
+                  - cell "Picked Up" [ref=e4047]:
+                    - generic [ref=e4051]: Picked Up
+                  - cell "US-03186465" [ref=e4052]:
+                    - generic [ref=e4054]: US-03186465
+                  - cell "Hy Saporta" [ref=e4055]:
+                    - generic [ref=e4057]: Hy Saporta
+                  - cell "14 May 20" [ref=e4058]:
+                    - generic [ref=e4059]: 14 May 20
+                  - cell "01 Jun 20" [ref=e4060]:
+                    - generic [ref=e4061]: 01 Jun 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4062]:
+                    - generic [ref=e4068]:
+                      - generic [ref=e4069]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4070]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$313.50" [ref=e4071] [cursor=pointer]:
+                    - generic [ref=e4073]: $313.50
+                  - cell "181782224330" [ref=e4074]:
+                    - list [ref=e4075]:
+                      - listitem [ref=e4076]:
+                        - link "181782224330" [ref=e4077] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=181782224330
+                - row "2966358 Store Picked Up US-03081624 Tom McManus 06 May 20 01 Jun 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $313.50 172013985680" [ref=e4078]:
+                  - cell "2966358 Store" [ref=e4079] [cursor=pointer]:
+                    - generic [ref=e4080]:
+                      - generic [ref=e4081]: "2966358"
+                      - generic [ref=e4082]: Store
+                  - cell "Picked Up" [ref=e4083]:
+                    - generic [ref=e4087]: Picked Up
+                  - cell "US-03081624" [ref=e4088]:
+                    - generic [ref=e4090]: US-03081624
+                  - cell "Tom McManus" [ref=e4091]:
+                    - generic [ref=e4093]: Tom McManus
+                  - cell "06 May 20" [ref=e4094]:
+                    - generic [ref=e4095]: 06 May 20
+                  - cell "01 Jun 20" [ref=e4096]:
+                    - generic [ref=e4097]: 01 Jun 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4098]:
+                    - generic [ref=e4104]:
+                      - generic [ref=e4105]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4106]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$313.50" [ref=e4107] [cursor=pointer]:
+                    - generic [ref=e4109]: $313.50
+                  - cell "172013985680" [ref=e4110]:
+                    - list [ref=e4111]:
+                      - listitem [ref=e4112]:
+                        - link "172013985680" [ref=e4113] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013985680
+                - row "2955699 Store Picked Up US-03017526 Andy Wasef 30 Apr 20 01 Jun 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $85.84 172013960734" [ref=e4114]:
+                  - cell "2955699 Store" [ref=e4115] [cursor=pointer]:
+                    - generic [ref=e4116]:
+                      - generic [ref=e4117]: "2955699"
+                      - generic [ref=e4118]: Store
+                  - cell "Picked Up" [ref=e4119]:
+                    - generic [ref=e4123]: Picked Up
+                  - cell "US-03017526" [ref=e4124]:
+                    - generic [ref=e4126]: US-03017526
+                  - cell "Andy Wasef" [ref=e4127]:
+                    - generic [ref=e4129]: Andy Wasef
+                  - cell "30 Apr 20" [ref=e4130]:
+                    - generic [ref=e4131]: 30 Apr 20
+                  - cell "01 Jun 20" [ref=e4132]:
+                    - generic [ref=e4133]: 01 Jun 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4134]:
+                    - generic [ref=e4140]:
+                      - generic [ref=e4141]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4142]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$85.84" [ref=e4143] [cursor=pointer]:
+                    - generic [ref=e4145]: $85.84
+                  - cell "172013960734" [ref=e4146]:
+                    - list [ref=e4147]:
+                      - listitem [ref=e4148]:
+                        - link "172013960734" [ref=e4149] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013960734
+                - row "2968839 Store Picked Up US-03102201 Jared Edwards 07 May 20 28 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $802.24 172014003442" [ref=e4150]:
+                  - cell "2968839 Store" [ref=e4151] [cursor=pointer]:
+                    - generic [ref=e4152]:
+                      - generic [ref=e4153]: "2968839"
+                      - generic [ref=e4154]: Store
+                  - cell "Picked Up" [ref=e4155]:
+                    - generic [ref=e4159]: Picked Up
+                  - cell "US-03102201" [ref=e4160]:
+                    - generic [ref=e4162]: US-03102201
+                  - cell "Jared Edwards" [ref=e4163]:
+                    - generic [ref=e4165]: Jared Edwards
+                  - cell "07 May 20" [ref=e4166]:
+                    - generic [ref=e4167]: 07 May 20
+                  - cell "28 May 20" [ref=e4168]:
+                    - generic [ref=e4169]: 28 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4170]:
+                    - generic [ref=e4176]:
+                      - generic [ref=e4177]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4178]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$802.24" [ref=e4179] [cursor=pointer]:
+                    - generic [ref=e4181]: $802.24
+                  - cell "172014003442" [ref=e4182]:
+                    - list [ref=e4183]:
+                      - listitem [ref=e4184]:
+                        - link "172014003442" [ref=e4185] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172014003442
+                - row "2972548 Store Picked Up US-03132032 Caroline Armstrong 10 May 20 28 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $19.19 9405509898642945687343 181782184836 9405509898642444709638" [ref=e4186]:
+                  - cell "2972548 Store" [ref=e4187] [cursor=pointer]:
+                    - generic [ref=e4188]:
+                      - generic [ref=e4189]: "2972548"
+                      - generic [ref=e4190]: Store
+                  - cell "Picked Up" [ref=e4191]:
+                    - generic [ref=e4195]: Picked Up
+                  - cell "US-03132032" [ref=e4196]:
+                    - generic [ref=e4198]: US-03132032
+                  - cell "Caroline Armstrong" [ref=e4199]:
+                    - generic [ref=e4201]: Caroline Armstrong
+                  - cell "10 May 20" [ref=e4202]:
+                    - generic [ref=e4203]: 10 May 20
+                  - cell "28 May 20" [ref=e4204]:
+                    - generic [ref=e4205]: 28 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4206]:
+                    - generic [ref=e4212]:
+                      - generic [ref=e4213]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4214]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$19.19" [ref=e4215] [cursor=pointer]:
+                    - generic [ref=e4217]: $19.19
+                  - cell "9405509898642945687343 181782184836 9405509898642444709638" [ref=e4218]:
+                    - list [ref=e4219]:
+                      - listitem [ref=e4220]:
+                        - link "9405509898642945687343" [ref=e4221] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642945687343
+                      - listitem [ref=e4222]:
+                        - link "181782184836" [ref=e4223] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=181782184836
+                      - listitem [ref=e4224]:
+                        - link "9405509898642444709638" [ref=e4225] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642444709638
+                - row "2959444 Store Picked Up US-03045065 Frances Riith 03 May 20 17 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $18.08 9405509898642931579843" [ref=e4226]:
+                  - cell "2959444 Store" [ref=e4227] [cursor=pointer]:
+                    - generic [ref=e4228]:
+                      - generic [ref=e4229]: "2959444"
+                      - generic [ref=e4230]: Store
+                  - cell "Picked Up" [ref=e4231]:
+                    - generic [ref=e4235]: Picked Up
+                  - cell "US-03045065" [ref=e4236]:
+                    - generic [ref=e4238]: US-03045065
+                  - cell "Frances Riith" [ref=e4239]:
+                    - generic [ref=e4241]: Frances Riith
+                  - cell "03 May 20" [ref=e4242]:
+                    - generic [ref=e4243]: 03 May 20
+                  - cell "17 May 20" [ref=e4244]:
+                    - generic [ref=e4245]: 17 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4246]:
+                    - generic [ref=e4252]:
+                      - generic [ref=e4253]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4254]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$18.08" [ref=e4255] [cursor=pointer]:
+                    - generic [ref=e4257]: $18.08
+                  - cell "9405509898642931579843" [ref=e4258]:
+                    - list [ref=e4259]:
+                      - listitem [ref=e4260]:
+                        - link "9405509898642931579843" [ref=e4261] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642931579843
+                - row "2940390 Store Picked Up US-02912850 Thomas Luthy 22 Apr 20 15 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $337.50 172013872643" [ref=e4262]:
+                  - cell "2940390 Store" [ref=e4263] [cursor=pointer]:
+                    - generic [ref=e4264]:
+                      - generic [ref=e4265]: "2940390"
+                      - generic [ref=e4266]: Store
+                  - cell "Picked Up" [ref=e4267]:
+                    - generic [ref=e4271]: Picked Up
+                  - cell "US-02912850" [ref=e4272]:
+                    - generic [ref=e4274]: US-02912850
+                  - cell "Thomas Luthy" [ref=e4275]:
+                    - generic [ref=e4277]: Thomas Luthy
+                  - cell "22 Apr 20" [ref=e4278]:
+                    - generic [ref=e4279]: 22 Apr 20
+                  - cell "15 May 20" [ref=e4280]:
+                    - generic [ref=e4281]: 15 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4282]:
+                    - generic [ref=e4288]:
+                      - generic [ref=e4289]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4290]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$337.50" [ref=e4291] [cursor=pointer]:
+                    - generic [ref=e4293]: $337.50
+                  - cell "172013872643" [ref=e4294]:
+                    - list [ref=e4295]:
+                      - listitem [ref=e4296]:
+                        - link "172013872643" [ref=e4297] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013872643
+                - row "2941826 Store Picked Up US-02922598 Kathleen Linnane 23 Apr 20 15 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $394.99 172013874944" [ref=e4298]:
+                  - cell "2941826 Store" [ref=e4299] [cursor=pointer]:
+                    - generic [ref=e4300]:
+                      - generic [ref=e4301]: "2941826"
+                      - generic [ref=e4302]: Store
+                  - cell "Picked Up" [ref=e4303]:
+                    - generic [ref=e4307]: Picked Up
+                  - cell "US-02922598" [ref=e4308]:
+                    - generic [ref=e4310]: US-02922598
+                  - cell "Kathleen Linnane" [ref=e4311]:
+                    - generic [ref=e4313]: Kathleen Linnane
+                  - cell "23 Apr 20" [ref=e4314]:
+                    - generic [ref=e4315]: 23 Apr 20
+                  - cell "15 May 20" [ref=e4316]:
+                    - generic [ref=e4317]: 15 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4318]:
+                    - generic [ref=e4324]:
+                      - generic [ref=e4325]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4326]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$394.99" [ref=e4327] [cursor=pointer]:
+                    - generic [ref=e4329]: $394.99
+                  - cell "172013874944" [ref=e4330]:
+                    - list [ref=e4331]:
+                      - listitem [ref=e4332]:
+                        - link "172013874944" [ref=e4333] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013874944
+                - row "2942202 Store Picked Up US-02928301 Lucas Vanderkamp 23 Apr 20 15 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $0.00 172010862378" [ref=e4334]:
+                  - cell "2942202 Store" [ref=e4335] [cursor=pointer]:
+                    - generic [ref=e4336]:
+                      - generic [ref=e4337]: "2942202"
+                      - generic [ref=e4338]: Store
+                  - cell "Picked Up" [ref=e4339]:
+                    - generic [ref=e4343]: Picked Up
+                  - cell "US-02928301" [ref=e4344]:
+                    - generic [ref=e4346]: US-02928301
+                  - cell "Lucas Vanderkamp" [ref=e4347]:
+                    - generic [ref=e4349]: Lucas Vanderkamp
+                  - cell "23 Apr 20" [ref=e4350]:
+                    - generic [ref=e4351]: 23 Apr 20
+                  - cell "15 May 20" [ref=e4352]:
+                    - generic [ref=e4353]: 15 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4354]:
+                    - generic [ref=e4360]:
+                      - generic [ref=e4361]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4362]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$0.00":
+                    - generic:
+                      - generic: $0.00
+                  - cell "172010862378" [ref=e4363]:
+                    - list [ref=e4364]:
+                      - listitem [ref=e4365]:
+                        - link "172010862378" [ref=e4366] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172010862378
+                - row "2951367 Store Picked Up US-02985746 Matthew Landau 28 Apr 20 15 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $815.03 172013933443" [ref=e4367]:
+                  - cell "2951367 Store" [ref=e4368] [cursor=pointer]:
+                    - generic [ref=e4369]:
+                      - generic [ref=e4370]: "2951367"
+                      - generic [ref=e4371]: Store
+                  - cell "Picked Up" [ref=e4372]:
+                    - generic [ref=e4376]: Picked Up
+                  - cell "US-02985746" [ref=e4377]:
+                    - generic [ref=e4379]: US-02985746
+                  - cell "Matthew Landau" [ref=e4380]:
+                    - generic [ref=e4382]: Matthew Landau
+                  - cell "28 Apr 20" [ref=e4383]:
+                    - generic [ref=e4384]: 28 Apr 20
+                  - cell "15 May 20" [ref=e4385]:
+                    - generic [ref=e4386]: 15 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4387]:
+                    - generic [ref=e4393]:
+                      - generic [ref=e4394]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4395]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$815.03" [ref=e4396] [cursor=pointer]:
+                    - generic [ref=e4398]: $815.03
+                  - cell "172013933443" [ref=e4399]:
+                    - list [ref=e4400]:
+                      - listitem [ref=e4401]:
+                        - link "172013933443" [ref=e4402] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013933443
+                - row "2950833 Store Picked Up US-02987067 Gregory OBrien 28 Apr 20 15 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,386.13 172013933903" [ref=e4403]:
+                  - cell "2950833 Store" [ref=e4404] [cursor=pointer]:
+                    - generic [ref=e4405]:
+                      - generic [ref=e4406]: "2950833"
+                      - generic [ref=e4407]: Store
+                  - cell "Picked Up" [ref=e4408]:
+                    - generic [ref=e4412]: Picked Up
+                  - cell "US-02987067" [ref=e4413]:
+                    - generic [ref=e4415]: US-02987067
+                  - cell "Gregory OBrien" [ref=e4416]:
+                    - generic [ref=e4418]: Gregory OBrien
+                  - cell "28 Apr 20" [ref=e4419]:
+                    - generic [ref=e4420]: 28 Apr 20
+                  - cell "15 May 20" [ref=e4421]:
+                    - generic [ref=e4422]: 15 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4423]:
+                    - generic [ref=e4429]:
+                      - generic [ref=e4430]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4431]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,386.13" [ref=e4432] [cursor=pointer]:
+                    - generic [ref=e4434]: $1,386.13
+                  - cell "172013933903" [ref=e4435]:
+                    - list [ref=e4436]:
+                      - listitem [ref=e4437]:
+                        - link "172013933903" [ref=e4438] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013933903
+                - row "2944331 Store Picked Up US-02940282 Karen Hatton 24 Apr 20 15 May 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $288.00 172013900728" [ref=e4439]:
+                  - cell "2944331 Store" [ref=e4440] [cursor=pointer]:
+                    - generic [ref=e4441]:
+                      - generic [ref=e4442]: "2944331"
+                      - generic [ref=e4443]: Store
+                  - cell "Picked Up" [ref=e4444]:
+                    - generic [ref=e4448]: Picked Up
+                  - cell "US-02940282" [ref=e4449]:
+                    - generic [ref=e4451]: US-02940282
+                  - cell "Karen Hatton" [ref=e4452]:
+                    - generic [ref=e4454]: Karen Hatton
+                  - cell "24 Apr 20" [ref=e4455]:
+                    - generic [ref=e4456]: 24 Apr 20
+                  - cell "15 May 20" [ref=e4457]:
+                    - generic [ref=e4458]: 15 May 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4459]:
+                    - generic [ref=e4465]:
+                      - generic [ref=e4466]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4467]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$288.00" [ref=e4468] [cursor=pointer]:
+                    - generic [ref=e4470]: $288.00
+                  - cell "172013900728" [ref=e4471]:
+                    - list [ref=e4472]:
+                      - listitem [ref=e4473]:
+                        - link "172013900728" [ref=e4474] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013900728
+                - row "2932783 Store Picked Up US-02860917 Ryan Burke 18 Apr 20 30 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $156.80 172013819837" [ref=e4475]:
+                  - cell "2932783 Store" [ref=e4476] [cursor=pointer]:
+                    - generic [ref=e4477]:
+                      - generic [ref=e4478]: "2932783"
+                      - generic [ref=e4479]: Store
+                  - cell "Picked Up" [ref=e4480]:
+                    - generic [ref=e4484]: Picked Up
+                  - cell "US-02860917" [ref=e4485]:
+                    - generic [ref=e4487]: US-02860917
+                  - cell "Ryan Burke" [ref=e4488]:
+                    - generic [ref=e4490]: Ryan Burke
+                  - cell "18 Apr 20" [ref=e4491]:
+                    - generic [ref=e4492]: 18 Apr 20
+                  - cell "30 Apr 20" [ref=e4493]:
+                    - generic [ref=e4494]: 30 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4495]:
+                    - generic [ref=e4501]:
+                      - generic [ref=e4502]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4503]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$156.80" [ref=e4504] [cursor=pointer]:
+                    - generic [ref=e4506]: $156.80
+                  - cell "172013819837" [ref=e4507]:
+                    - list [ref=e4508]:
+                      - listitem [ref=e4509]:
+                        - link "172013819837" [ref=e4510] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013819837
+                - row "2923132 Store Picked Up US-02799281 Nicole Mosello 12 Apr 20 30 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $84.99 172013772250" [ref=e4511]:
+                  - cell "2923132 Store" [ref=e4512] [cursor=pointer]:
+                    - generic [ref=e4513]:
+                      - generic [ref=e4514]: "2923132"
+                      - generic [ref=e4515]: Store
+                  - cell "Picked Up" [ref=e4516]:
+                    - generic [ref=e4520]: Picked Up
+                  - cell "US-02799281" [ref=e4521]:
+                    - generic [ref=e4523]: US-02799281
+                  - cell "Nicole Mosello" [ref=e4524]:
+                    - generic [ref=e4526]: Nicole Mosello
+                  - cell "12 Apr 20" [ref=e4527]:
+                    - generic [ref=e4528]: 12 Apr 20
+                  - cell "30 Apr 20" [ref=e4529]:
+                    - generic [ref=e4530]: 30 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4531]:
+                    - generic [ref=e4537]:
+                      - generic [ref=e4538]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4539]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$84.99" [ref=e4540] [cursor=pointer]:
+                    - generic [ref=e4542]: $84.99
+                  - cell "172013772250" [ref=e4543]:
+                    - list [ref=e4544]:
+                      - listitem [ref=e4545]:
+                        - link "172013772250" [ref=e4546] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013772250
+                - row "2937471 Store Picked Up US-02898263 Brian Flood 20 Apr 20 24 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $29.02 9405509898642918554467" [ref=e4547]:
+                  - cell "2937471 Store" [ref=e4548] [cursor=pointer]:
+                    - generic [ref=e4549]:
+                      - generic [ref=e4550]: "2937471"
+                      - generic [ref=e4551]: Store
+                  - cell "Picked Up" [ref=e4552]:
+                    - generic [ref=e4556]: Picked Up
+                  - cell "US-02898263" [ref=e4557]:
+                    - generic [ref=e4559]: US-02898263
+                  - cell "Brian Flood" [ref=e4560]:
+                    - generic [ref=e4562]: Brian Flood
+                  - cell "20 Apr 20" [ref=e4563]:
+                    - generic [ref=e4564]: 20 Apr 20
+                  - cell "24 Apr 20" [ref=e4565]:
+                    - generic [ref=e4566]: 24 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4567]:
+                    - generic [ref=e4573]:
+                      - generic [ref=e4574]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4575]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$29.02" [ref=e4576] [cursor=pointer]:
+                    - generic [ref=e4578]: $29.02
+                  - cell "9405509898642918554467" [ref=e4579]:
+                    - list [ref=e4580]:
+                      - listitem [ref=e4581]:
+                        - link "9405509898642918554467" [ref=e4582] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642918554467
+                - row "2903375 Store Picked Up US-02656847 Nasri Toutoungi 28 Mar 20 22 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $621.00 139476842084" [ref=e4583]:
+                  - cell "2903375 Store" [ref=e4584] [cursor=pointer]:
+                    - generic [ref=e4585]:
+                      - generic [ref=e4586]: "2903375"
+                      - generic [ref=e4587]: Store
+                  - cell "Picked Up" [ref=e4588]:
+                    - generic [ref=e4592]: Picked Up
+                  - cell "US-02656847" [ref=e4593]:
+                    - generic [ref=e4595]: US-02656847
+                  - cell "Nasri Toutoungi" [ref=e4596]:
+                    - generic [ref=e4598]: Nasri Toutoungi
+                  - cell "28 Mar 20" [ref=e4599]:
+                    - generic [ref=e4600]: 28 Mar 20
+                  - cell "22 Apr 20" [ref=e4601]:
+                    - generic [ref=e4602]: 22 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4603]:
+                    - generic [ref=e4609]:
+                      - generic [ref=e4610]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4611]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$621.00" [ref=e4612] [cursor=pointer]:
+                    - generic [ref=e4614]: $621.00
+                  - cell "139476842084" [ref=e4615]:
+                    - list [ref=e4616]:
+                      - listitem [ref=e4617]:
+                        - link "139476842084" [ref=e4618] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=139476842084
+                - row "2910571 Store Picked Up US-02715732 Randy Hicks 04 Apr 20 21 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $213.15 164945867738" [ref=e4619]:
+                  - cell "2910571 Store" [ref=e4620] [cursor=pointer]:
+                    - generic [ref=e4621]:
+                      - generic [ref=e4622]: "2910571"
+                      - generic [ref=e4623]: Store
+                  - cell "Picked Up" [ref=e4624]:
+                    - generic [ref=e4628]: Picked Up
+                  - cell "US-02715732" [ref=e4629]:
+                    - generic [ref=e4631]: US-02715732
+                  - cell "Randy Hicks" [ref=e4632]:
+                    - generic [ref=e4634]: Randy Hicks
+                  - cell "04 Apr 20" [ref=e4635]:
+                    - generic [ref=e4636]: 04 Apr 20
+                  - cell "21 Apr 20" [ref=e4637]:
+                    - generic [ref=e4638]: 21 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4639]:
+                    - generic [ref=e4645]:
+                      - generic [ref=e4646]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4647]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$213.15" [ref=e4648] [cursor=pointer]:
+                    - generic [ref=e4650]: $213.15
+                  - cell "164945867738" [ref=e4651]:
+                    - list [ref=e4652]:
+                      - listitem [ref=e4653]:
+                        - link "164945867738" [ref=e4654] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=164945867738
+                - row "2925929 Store Picked Up US-02819077 Amy Steele 14 Apr 20 20 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $350.99 172013791874" [ref=e4655]:
+                  - cell "2925929 Store" [ref=e4656] [cursor=pointer]:
+                    - generic [ref=e4657]:
+                      - generic [ref=e4658]: "2925929"
+                      - generic [ref=e4659]: Store
+                  - cell "Picked Up" [ref=e4660]:
+                    - generic [ref=e4664]: Picked Up
+                  - cell "US-02819077" [ref=e4665]:
+                    - generic [ref=e4667]: US-02819077
+                  - cell "Amy Steele" [ref=e4668]:
+                    - generic [ref=e4670]: Amy Steele
+                  - cell "14 Apr 20" [ref=e4671]:
+                    - generic [ref=e4672]: 14 Apr 20
+                  - cell "20 Apr 20" [ref=e4673]:
+                    - generic [ref=e4674]: 20 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4675]:
+                    - generic [ref=e4681]:
+                      - generic [ref=e4682]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4683]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$350.99" [ref=e4684] [cursor=pointer]:
+                    - generic [ref=e4686]: $350.99
+                  - cell "172013791874" [ref=e4687]:
+                    - list [ref=e4688]:
+                      - listitem [ref=e4689]:
+                        - link "172013791874" [ref=e4690] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=172013791874
+                - row "2910853 Store Picked Up US-02717093 Timothy Sticco 04 Apr 20 18 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $213.15 164945866937" [ref=e4691]:
+                  - cell "2910853 Store" [ref=e4692] [cursor=pointer]:
+                    - generic [ref=e4693]:
+                      - generic [ref=e4694]: "2910853"
+                      - generic [ref=e4695]: Store
+                  - cell "Picked Up" [ref=e4696]:
+                    - generic [ref=e4700]: Picked Up
+                  - cell "US-02717093" [ref=e4701]:
+                    - generic [ref=e4703]: US-02717093
+                  - cell "Timothy Sticco" [ref=e4704]:
+                    - generic [ref=e4706]: Timothy Sticco
+                  - cell "04 Apr 20" [ref=e4707]:
+                    - generic [ref=e4708]: 04 Apr 20
+                  - cell "18 Apr 20" [ref=e4709]:
+                    - generic [ref=e4710]: 18 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4711]:
+                    - generic [ref=e4717]:
+                      - generic [ref=e4718]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4719]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$213.15" [ref=e4720] [cursor=pointer]:
+                    - generic [ref=e4722]: $213.15
+                  - cell "164945866937" [ref=e4723]:
+                    - list [ref=e4724]:
+                      - listitem [ref=e4725]:
+                        - link "164945866937" [ref=e4726] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=164945866937
+                - row "2914095 Store Picked Up US-02736508 Yunfeng Lin 06 Apr 20 16 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $267.72 139476893913" [ref=e4727]:
+                  - cell "2914095 Store" [ref=e4728] [cursor=pointer]:
+                    - generic [ref=e4729]:
+                      - generic [ref=e4730]: "2914095"
+                      - generic [ref=e4731]: Store
+                  - cell "Picked Up" [ref=e4732]:
+                    - generic [ref=e4736]: Picked Up
+                  - cell "US-02736508" [ref=e4737]:
+                    - generic [ref=e4739]: US-02736508
+                  - cell "Yunfeng Lin" [ref=e4740]:
+                    - generic [ref=e4742]: Yunfeng Lin
+                  - cell "06 Apr 20" [ref=e4743]:
+                    - generic [ref=e4744]: 06 Apr 20
+                  - cell "16 Apr 20" [ref=e4745]:
+                    - generic [ref=e4746]: 16 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4747]:
+                    - generic [ref=e4753]:
+                      - generic [ref=e4754]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4755]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$267.72" [ref=e4756] [cursor=pointer]:
+                    - generic [ref=e4758]: $267.72
+                  - cell "139476893913" [ref=e4759]:
+                    - list [ref=e4760]:
+                      - listitem [ref=e4761]:
+                        - link "139476893913" [ref=e4762] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=139476893913
+                - row "2917695 Store Picked Up US-02758776 james dodwell 09 Apr 20 16 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $165.15 164945905618" [ref=e4763]:
+                  - cell "2917695 Store" [ref=e4764] [cursor=pointer]:
+                    - generic [ref=e4765]:
+                      - generic [ref=e4766]: "2917695"
+                      - generic [ref=e4767]: Store
+                  - cell "Picked Up" [ref=e4768]:
+                    - generic [ref=e4772]: Picked Up
+                  - cell "US-02758776" [ref=e4773]:
+                    - generic [ref=e4775]: US-02758776
+                  - cell "james dodwell" [ref=e4776]:
+                    - generic [ref=e4778]: james dodwell
+                  - cell "09 Apr 20" [ref=e4779]:
+                    - generic [ref=e4780]: 09 Apr 20
+                  - cell "16 Apr 20" [ref=e4781]:
+                    - generic [ref=e4782]: 16 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4783]:
+                    - generic [ref=e4789]:
+                      - generic [ref=e4790]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4791]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$165.15" [ref=e4792] [cursor=pointer]:
+                    - generic [ref=e4794]: $165.15
+                  - cell "164945905618" [ref=e4795]:
+                    - list [ref=e4796]:
+                      - listitem [ref=e4797]:
+                        - link "164945905618" [ref=e4798] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=164945905618
+                - row "2909768 Store Picked Up US-02704763 Jeff Looby 03 Apr 20 12 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $207.99 139476882239" [ref=e4799]:
+                  - cell "2909768 Store" [ref=e4800] [cursor=pointer]:
+                    - generic [ref=e4801]:
+                      - generic [ref=e4802]: "2909768"
+                      - generic [ref=e4803]: Store
+                  - cell "Picked Up" [ref=e4804]:
+                    - generic [ref=e4808]: Picked Up
+                  - cell "US-02704763" [ref=e4809]:
+                    - generic [ref=e4811]: US-02704763
+                  - cell "Jeff Looby" [ref=e4812]:
+                    - generic [ref=e4814]: Jeff Looby
+                  - cell "03 Apr 20" [ref=e4815]:
+                    - generic [ref=e4816]: 03 Apr 20
+                  - cell "12 Apr 20" [ref=e4817]:
+                    - generic [ref=e4818]: 12 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4819]:
+                    - generic [ref=e4825]:
+                      - generic [ref=e4826]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4827]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$207.99" [ref=e4828] [cursor=pointer]:
+                    - generic [ref=e4830]: $207.99
+                  - cell "139476882239" [ref=e4831]:
+                    - list [ref=e4832]:
+                      - listitem [ref=e4833]:
+                        - link "139476882239" [ref=e4834] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=139476882239
+                - row "2906665 Store Picked Up US-02676714 Joe Charno 31 Mar 20 11 Apr 20 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,737.49 139476863884" [ref=e4835]:
+                  - cell "2906665 Store" [ref=e4836] [cursor=pointer]:
+                    - generic [ref=e4837]:
+                      - generic [ref=e4838]: "2906665"
+                      - generic [ref=e4839]: Store
+                  - cell "Picked Up" [ref=e4840]:
+                    - generic [ref=e4844]: Picked Up
+                  - cell "US-02676714" [ref=e4845]:
+                    - generic [ref=e4847]: US-02676714
+                  - cell "Joe Charno" [ref=e4848]:
+                    - generic [ref=e4850]: Joe Charno
+                  - cell "31 Mar 20" [ref=e4851]:
+                    - generic [ref=e4852]: 31 Mar 20
+                  - cell "11 Apr 20" [ref=e4853]:
+                    - generic [ref=e4854]: 11 Apr 20
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4855]:
+                    - generic [ref=e4861]:
+                      - generic [ref=e4862]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4863]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,737.49" [ref=e4864] [cursor=pointer]:
+                    - generic [ref=e4866]: $1,737.49
+                  - cell "139476863884" [ref=e4867]:
+                    - list [ref=e4868]:
+                      - listitem [ref=e4869]:
+                        - link "139476863884" [ref=e4870] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=139476863884
+                - row "2824431 Store Picked Up US-02079443 VADYM KARGIN 02 Dec 19 23 Dec 19 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $20.27 9405509898642799257075" [ref=e4871]:
+                  - cell "2824431 Store" [ref=e4872] [cursor=pointer]:
+                    - generic [ref=e4873]:
+                      - generic [ref=e4874]: "2824431"
+                      - generic [ref=e4875]: Store
+                  - cell "Picked Up" [ref=e4876]:
+                    - generic [ref=e4880]: Picked Up
+                  - cell "US-02079443" [ref=e4881]:
+                    - generic [ref=e4883]: US-02079443
+                  - cell "VADYM KARGIN" [ref=e4884]:
+                    - generic [ref=e4886]: VADYM KARGIN
+                  - cell "02 Dec 19" [ref=e4887]:
+                    - generic [ref=e4888]: 02 Dec 19
+                  - cell "23 Dec 19" [ref=e4889]:
+                    - generic [ref=e4890]: 23 Dec 19
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4891]:
+                    - generic [ref=e4897]:
+                      - generic [ref=e4898]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4899]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$20.27" [ref=e4900] [cursor=pointer]:
+                    - generic [ref=e4902]: $20.27
+                  - cell "9405509898642799257075" [ref=e4903]:
+                    - list [ref=e4904]:
+                      - listitem [ref=e4905]:
+                        - link "9405509898642799257075" [ref=e4906] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642799257075
+                - row "2831958 Store Picked Up US-02127699 Jean Anderson 09 Dec 19 23 Dec 19 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $256.49 134714524177" [ref=e4907]:
+                  - cell "2831958 Store" [ref=e4908] [cursor=pointer]:
+                    - generic [ref=e4909]:
+                      - generic [ref=e4910]: "2831958"
+                      - generic [ref=e4911]: Store
+                  - cell "Picked Up" [ref=e4912]:
+                    - generic [ref=e4916]: Picked Up
+                  - cell "US-02127699" [ref=e4917]:
+                    - generic [ref=e4919]: US-02127699
+                  - cell "Jean Anderson" [ref=e4920]:
+                    - generic [ref=e4922]: Jean Anderson
+                  - cell "09 Dec 19" [ref=e4923]:
+                    - generic [ref=e4924]: 09 Dec 19
+                  - cell "23 Dec 19" [ref=e4925]:
+                    - generic [ref=e4926]: 23 Dec 19
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4927]:
+                    - generic [ref=e4933]:
+                      - generic [ref=e4934]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4935]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$256.49" [ref=e4936] [cursor=pointer]:
+                    - generic [ref=e4938]: $256.49
+                  - cell "134714524177" [ref=e4939]:
+                    - list [ref=e4940]:
+                      - listitem [ref=e4941]:
+                        - link "134714524177" [ref=e4942] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=134714524177
+                - row "2761916 Store Picked Up US-01714203 Michael Sampar 27 Aug 19 05 Sep 19 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1,122.18 114472415702" [ref=e4943]:
+                  - cell "2761916 Store" [ref=e4944] [cursor=pointer]:
+                    - generic [ref=e4945]:
+                      - generic [ref=e4946]: "2761916"
+                      - generic [ref=e4947]: Store
+                  - cell "Picked Up" [ref=e4948]:
+                    - generic [ref=e4952]: Picked Up
+                  - cell "US-01714203" [ref=e4953]:
+                    - generic [ref=e4955]: US-01714203
+                  - cell "Michael Sampar" [ref=e4956]:
+                    - generic [ref=e4958]: Michael Sampar
+                  - cell "27 Aug 19" [ref=e4959]:
+                    - generic [ref=e4960]: 27 Aug 19
+                  - cell "05 Sep 19" [ref=e4961]:
+                    - generic [ref=e4962]: 05 Sep 19
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4963]:
+                    - generic [ref=e4969]:
+                      - generic [ref=e4970]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e4971]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1,122.18" [ref=e4972] [cursor=pointer]:
+                    - generic [ref=e4974]: $1,122.18
+                  - cell "114472415702" [ref=e4975]:
+                    - list [ref=e4976]:
+                      - listitem [ref=e4977]:
+                        - link "114472415702" [ref=e4978] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=114472415702
+                - row "2723209 Store Picked Up US-01521160 Zack Greene 12 Jul 19 04 Sep 19 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $1.70 9405509898642333796442" [ref=e4979]:
+                  - cell "2723209 Store" [ref=e4980] [cursor=pointer]:
+                    - generic [ref=e4981]:
+                      - generic [ref=e4982]: "2723209"
+                      - generic [ref=e4983]: Store
+                  - cell "Picked Up" [ref=e4984]:
+                    - generic [ref=e4988]: Picked Up
+                  - cell "US-01521160" [ref=e4989]:
+                    - generic [ref=e4991]: US-01521160
+                  - cell "Zack Greene" [ref=e4992]:
+                    - generic [ref=e4994]: Zack Greene
+                  - cell "12 Jul 19" [ref=e4995]:
+                    - generic [ref=e4996]: 12 Jul 19
+                  - cell "04 Sep 19" [ref=e4997]:
+                    - generic [ref=e4998]: 04 Sep 19
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e4999]:
+                    - generic [ref=e5005]:
+                      - generic [ref=e5006]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e5007]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$1.70" [ref=e5008] [cursor=pointer]:
+                    - generic [ref=e5010]: $1.70
+                  - cell "9405509898642333796442" [ref=e5011]:
+                    - list [ref=e5012]:
+                      - listitem [ref=e5013]:
+                        - link "9405509898642333796442" [ref=e5014] [cursor=pointer]:
+                          - /url: https://tools.usps.com/go/TrackConfirmAction?tLabels=9405509898642333796442
+                - row "2656729 Store Picked Up US-01211885 Andrew Heck 24 Apr 19 03 May 19 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $191.54 490814213297" [ref=e5015]:
+                  - cell "2656729 Store" [ref=e5016] [cursor=pointer]:
+                    - generic [ref=e5017]:
+                      - generic [ref=e5018]: "2656729"
+                      - generic [ref=e5019]: Store
+                  - cell "Picked Up" [ref=e5020]:
+                    - generic [ref=e5024]: Picked Up
+                  - cell "US-01211885" [ref=e5025]:
+                    - generic [ref=e5027]: US-01211885
+                  - cell "Andrew Heck" [ref=e5028]:
+                    - generic [ref=e5030]: Andrew Heck
+                  - cell "24 Apr 19" [ref=e5031]:
+                    - generic [ref=e5032]: 24 Apr 19
+                  - cell "03 May 19" [ref=e5033]:
+                    - generic [ref=e5034]: 03 May 19
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e5035]:
+                    - generic [ref=e5041]:
+                      - generic [ref=e5042]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e5043]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$191.54" [ref=e5044] [cursor=pointer]:
+                    - generic [ref=e5046]: $191.54
+                  - cell "490814213297" [ref=e5047]:
+                    - list [ref=e5048]:
+                      - listitem [ref=e5049]:
+                        - link "490814213297" [ref=e5050] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=490814213297
+                - row "2643045 Store Picked Up US-01153416 Christopher Giroux 07 Apr 19 13 Apr 19 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $364.50 470646893553" [ref=e5051]:
+                  - cell "2643045 Store" [ref=e5052] [cursor=pointer]:
+                    - generic [ref=e5053]:
+                      - generic [ref=e5054]: "2643045"
+                      - generic [ref=e5055]: Store
+                  - cell "Picked Up" [ref=e5056]:
+                    - generic [ref=e5060]: Picked Up
+                  - cell "US-01153416" [ref=e5061]:
+                    - generic [ref=e5063]: US-01153416
+                  - cell "Christopher Giroux" [ref=e5064]:
+                    - generic [ref=e5066]: Christopher Giroux
+                  - cell "07 Apr 19" [ref=e5067]:
+                    - generic [ref=e5068]: 07 Apr 19
+                  - cell "13 Apr 19" [ref=e5069]:
+                    - generic [ref=e5070]: 13 Apr 19
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e5071]:
+                    - generic [ref=e5077]:
+                      - generic [ref=e5078]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e5079]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$364.50" [ref=e5080] [cursor=pointer]:
+                    - generic [ref=e5082]: $364.50
+                  - cell "470646893553" [ref=e5083]:
+                    - list [ref=e5084]:
+                      - listitem [ref=e5085]:
+                        - link "470646893553" [ref=e5086] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=470646893553
+                - row "2631533 Store Picked Up US-01101408 Stephanie Kogan 24 Mar 19 28 Mar 19 CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT $73.50 470646825939" [ref=e5087]:
+                  - cell "2631533 Store" [ref=e5088] [cursor=pointer]:
+                    - generic [ref=e5089]:
+                      - generic [ref=e5090]: "2631533"
+                      - generic [ref=e5091]: Store
+                  - cell "Picked Up" [ref=e5092]:
+                    - generic [ref=e5096]: Picked Up
+                  - cell "US-01101408" [ref=e5097]:
+                    - generic [ref=e5099]: US-01101408
+                  - cell "Stephanie Kogan" [ref=e5100]:
+                    - generic [ref=e5102]: Stephanie Kogan
+                  - cell "24 Mar 19" [ref=e5103]:
+                    - generic [ref=e5104]: 24 Mar 19
+                  - cell "28 Mar 19" [ref=e5105]:
+                    - generic [ref=e5106]: 28 Mar 19
+                  - cell "CYCLE DYNAMICS CHARLISA, INC. 971 POST RD EAST WESTPORT 06880 CT" [ref=e5107]:
+                    - generic [ref=e5113]:
+                      - generic [ref=e5114]: CYCLE DYNAMICS CHARLISA, INC.
+                      - generic [ref=e5115]: 971 POST RD EAST WESTPORT 06880 CT
+                  - cell "$73.50" [ref=e5116] [cursor=pointer]:
+                    - generic [ref=e5118]: $73.50
+                  - cell "470646825939" [ref=e5119]:
+                    - list [ref=e5120]:
+                      - listitem [ref=e5121]:
+                        - link "470646825939" [ref=e5122] [cursor=pointer]:
+                          - /url: http://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=470646825939
+            - generic [ref=e5123]:
+              - button [ref=e5124] [cursor=pointer]
+              - generic [ref=e5127]:
+                - img [ref=e5130] [cursor=pointer]
+                - generic [ref=e5132]: Loading...
+      - generic:
+        - region "Notifications (F8)":
+          - list
+      - generic:
+        - region "Notifications (F8)":
+          - list
+  - iframe [ref=e5133]:
+    
 ```
