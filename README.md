@@ -84,6 +84,3 @@ README serves as the source‑of‑truth for why the code exists and how it beha
    the response payload matches expectations.
 
 ---
-
-> 💡 *REMINDER:* update this README whenever tests are added or selectors change. This
-> ensures the documentation reflects the current implementation and maintains the RPI mindset.
