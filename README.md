@@ -1,5 +1,7 @@
 # 📦 Pick Up In Store (PUIS) Automation Suite
 
+**Repository Name:** `b2b-pickup-in-store-order-detail-validation`
+
 This repository contains a cross-platform automation suite (Python/Selenium & Playwright/JS) 
 designed to validate the **Pick Up In Store** fulfillment workflow on the Specialized B2B portal. 
 The tests exercise login, navigation, order selection and detail verification.
